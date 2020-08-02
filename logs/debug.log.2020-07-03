@@ -1,0 +1,248 @@
+"GET / HTTP/1.1" 200 18169
+"GET / HTTP/1.1" 200 18169
+"GET /static/img/startup.jpg HTTP/1.1" 404 1669
+"GET /static/img/startup.jpg HTTP/1.1" 404 1669
+"GET /login HTTP/1.1" 200 6547
+"GET /login HTTP/1.1" 200 6547
+Not Found: /favicon.png
+Not Found: /favicon.png
+"GET /favicon.png HTTP/1.1" 404 4396
+"GET /favicon.png HTTP/1.1" 404 4396
+"GET / HTTP/1.1" 200 18169
+"GET / HTTP/1.1" 200 18169
+"GET /static/vendor/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 8192
+"GET /static/vendor/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 8192
+"GET /static/img/startup.jpg HTTP/1.1" 404 1669
+"GET /static/img/startup.jpg HTTP/1.1" 404 1669
+"GET / HTTP/1.1" 200 18169
+"GET / HTTP/1.1" 200 18169
+"GET /static/img/startup.jpg HTTP/1.1" 404 1669
+"GET /static/img/startup.jpg HTTP/1.1" 404 1669
+Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/dell/anaconda3/lib/python3.6/site-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/home/dell/anaconda3/lib/python3.6/site-packages/django/core/handlers/base.py", line 158, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/dell/anaconda3/lib/python3.6/site-packages/django/core/handlers/base.py", line 156, in _get_response
+    response = response.render()
+  File "/home/dell/anaconda3/lib/python3.6/site-packages/django/template/response.py", line 106, in render
+    self.content = self.rendered_content
+  File "/home/dell/anaconda3/lib/python3.6/site-packages/django/template/response.py", line 83, in rendered_content
+    content = template.render(context, self._request)
+  File "/home/dell/anaconda3/lib/python3.6/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/home/dell/anaconda3/lib/python3.6/site-packages/django/template/base.py", line 175, in render
+    return self._render(context)
+  File "/home/dell/anaconda3/lib/python3.6/site-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "/home/dell/anaconda3/lib/python3.6/site-packages/django/template/base.py", line 943, in render
+    bit = node.render_annotated(context)
+  File "/home/dell/anaconda3/lib/python3.6/site-packages/django/template/base.py", line 910, in render_annotated
+    return self.render(context)
+  File "/home/dell/anaconda3/lib/python3.6/site-packages/django/template/loader_tags.py", line 155, in render
+    return compiled_parent._render(context)
+  File "/home/dell/anaconda3/lib/python3.6/site-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "/home/dell/anaconda3/lib/python3.6/site-packages/django/template/base.py", line 943, in render
+    bit = node.render_annotated(context)
+  File "/home/dell/anaconda3/lib/python3.6/site-packages/django/template/base.py", line 910, in render_annotated
+    return self.render(context)
+  File "/home/dell/anaconda3/lib/python3.6/site-packages/django/template/defaulttags.py", line 447, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "/home/dell/anaconda3/lib/python3.6/site-packages/django/urls/base.py", line 88, in reverse
+    return iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs))
+  File "/home/dell/anaconda3/lib/python3.6/site-packages/django/urls/resolvers.py", line 632, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'book-show' not found. 'book-show' is not a valid view function or pattern name.
+Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/dell/anaconda3/lib/python3.6/site-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/home/dell/anaconda3/lib/python3.6/site-packages/django/core/handlers/base.py", line 158, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/dell/anaconda3/lib/python3.6/site-packages/django/core/handlers/base.py", line 156, in _get_response
+    response = response.render()
+  File "/home/dell/anaconda3/lib/python3.6/site-packages/django/template/response.py", line 106, in render
+    self.content = self.rendered_content
+  File "/home/dell/anaconda3/lib/python3.6/site-packages/django/template/response.py", line 83, in rendered_content
+    content = template.render(context, self._request)
+  File "/home/dell/anaconda3/lib/python3.6/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/home/dell/anaconda3/lib/python3.6/site-packages/django/template/base.py", line 175, in render
+    return self._render(context)
+  File "/home/dell/anaconda3/lib/python3.6/site-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "/home/dell/anaconda3/lib/python3.6/site-packages/django/template/base.py", line 943, in render
+    bit = node.render_annotated(context)
+  File "/home/dell/anaconda3/lib/python3.6/site-packages/django/template/base.py", line 910, in render_annotated
+    return self.render(context)
+  File "/home/dell/anaconda3/lib/python3.6/site-packages/django/template/loader_tags.py", line 155, in render
+    return compiled_parent._render(context)
+  File "/home/dell/anaconda3/lib/python3.6/site-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "/home/dell/anaconda3/lib/python3.6/site-packages/django/template/base.py", line 943, in render
+    bit = node.render_annotated(context)
+  File "/home/dell/anaconda3/lib/python3.6/site-packages/django/template/base.py", line 910, in render_annotated
+    return self.render(context)
+  File "/home/dell/anaconda3/lib/python3.6/site-packages/django/template/defaulttags.py", line 447, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "/home/dell/anaconda3/lib/python3.6/site-packages/django/urls/base.py", line 88, in reverse
+    return iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs))
+  File "/home/dell/anaconda3/lib/python3.6/site-packages/django/urls/resolvers.py", line 632, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'book-show' not found. 'book-show' is not a valid view function or pattern name.
+"GET / HTTP/1.1" 500 151008
+"GET / HTTP/1.1" 500 151008
+Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/dell/anaconda3/lib/python3.6/site-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/home/dell/anaconda3/lib/python3.6/site-packages/django/core/handlers/base.py", line 158, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/dell/anaconda3/lib/python3.6/site-packages/django/core/handlers/base.py", line 156, in _get_response
+    response = response.render()
+  File "/home/dell/anaconda3/lib/python3.6/site-packages/django/template/response.py", line 106, in render
+    self.content = self.rendered_content
+  File "/home/dell/anaconda3/lib/python3.6/site-packages/django/template/response.py", line 83, in rendered_content
+    content = template.render(context, self._request)
+  File "/home/dell/anaconda3/lib/python3.6/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/home/dell/anaconda3/lib/python3.6/site-packages/django/template/base.py", line 175, in render
+    return self._render(context)
+  File "/home/dell/anaconda3/lib/python3.6/site-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "/home/dell/anaconda3/lib/python3.6/site-packages/django/template/base.py", line 943, in render
+    bit = node.render_annotated(context)
+  File "/home/dell/anaconda3/lib/python3.6/site-packages/django/template/base.py", line 910, in render_annotated
+    return self.render(context)
+  File "/home/dell/anaconda3/lib/python3.6/site-packages/django/template/loader_tags.py", line 155, in render
+    return compiled_parent._render(context)
+  File "/home/dell/anaconda3/lib/python3.6/site-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "/home/dell/anaconda3/lib/python3.6/site-packages/django/template/base.py", line 943, in render
+    bit = node.render_annotated(context)
+  File "/home/dell/anaconda3/lib/python3.6/site-packages/django/template/base.py", line 910, in render_annotated
+    return self.render(context)
+  File "/home/dell/anaconda3/lib/python3.6/site-packages/django/template/defaulttags.py", line 447, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "/home/dell/anaconda3/lib/python3.6/site-packages/django/urls/base.py", line 88, in reverse
+    return iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs))
+  File "/home/dell/anaconda3/lib/python3.6/site-packages/django/urls/resolvers.py", line 632, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'bookshow' not found. 'bookshow' is not a valid view function or pattern name.
+Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/dell/anaconda3/lib/python3.6/site-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/home/dell/anaconda3/lib/python3.6/site-packages/django/core/handlers/base.py", line 158, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/dell/anaconda3/lib/python3.6/site-packages/django/core/handlers/base.py", line 156, in _get_response
+    response = response.render()
+  File "/home/dell/anaconda3/lib/python3.6/site-packages/django/template/response.py", line 106, in render
+    self.content = self.rendered_content
+  File "/home/dell/anaconda3/lib/python3.6/site-packages/django/template/response.py", line 83, in rendered_content
+    content = template.render(context, self._request)
+  File "/home/dell/anaconda3/lib/python3.6/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/home/dell/anaconda3/lib/python3.6/site-packages/django/template/base.py", line 175, in render
+    return self._render(context)
+  File "/home/dell/anaconda3/lib/python3.6/site-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "/home/dell/anaconda3/lib/python3.6/site-packages/django/template/base.py", line 943, in render
+    bit = node.render_annotated(context)
+  File "/home/dell/anaconda3/lib/python3.6/site-packages/django/template/base.py", line 910, in render_annotated
+    return self.render(context)
+  File "/home/dell/anaconda3/lib/python3.6/site-packages/django/template/loader_tags.py", line 155, in render
+    return compiled_parent._render(context)
+  File "/home/dell/anaconda3/lib/python3.6/site-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "/home/dell/anaconda3/lib/python3.6/site-packages/django/template/base.py", line 943, in render
+    bit = node.render_annotated(context)
+  File "/home/dell/anaconda3/lib/python3.6/site-packages/django/template/base.py", line 910, in render_annotated
+    return self.render(context)
+  File "/home/dell/anaconda3/lib/python3.6/site-packages/django/template/defaulttags.py", line 447, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "/home/dell/anaconda3/lib/python3.6/site-packages/django/urls/base.py", line 88, in reverse
+    return iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs))
+  File "/home/dell/anaconda3/lib/python3.6/site-packages/django/urls/resolvers.py", line 632, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'bookshow' not found. 'bookshow' is not a valid view function or pattern name.
+"GET / HTTP/1.1" 500 150986
+"GET / HTTP/1.1" 500 150986
+Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/dell/anaconda3/lib/python3.6/site-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/home/dell/anaconda3/lib/python3.6/site-packages/django/core/handlers/base.py", line 158, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/dell/anaconda3/lib/python3.6/site-packages/django/core/handlers/base.py", line 156, in _get_response
+    response = response.render()
+  File "/home/dell/anaconda3/lib/python3.6/site-packages/django/template/response.py", line 106, in render
+    self.content = self.rendered_content
+  File "/home/dell/anaconda3/lib/python3.6/site-packages/django/template/response.py", line 83, in rendered_content
+    content = template.render(context, self._request)
+  File "/home/dell/anaconda3/lib/python3.6/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/home/dell/anaconda3/lib/python3.6/site-packages/django/template/base.py", line 175, in render
+    return self._render(context)
+  File "/home/dell/anaconda3/lib/python3.6/site-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "/home/dell/anaconda3/lib/python3.6/site-packages/django/template/base.py", line 943, in render
+    bit = node.render_annotated(context)
+  File "/home/dell/anaconda3/lib/python3.6/site-packages/django/template/base.py", line 910, in render_annotated
+    return self.render(context)
+  File "/home/dell/anaconda3/lib/python3.6/site-packages/django/template/loader_tags.py", line 155, in render
+    return compiled_parent._render(context)
+  File "/home/dell/anaconda3/lib/python3.6/site-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "/home/dell/anaconda3/lib/python3.6/site-packages/django/template/base.py", line 943, in render
+    bit = node.render_annotated(context)
+  File "/home/dell/anaconda3/lib/python3.6/site-packages/django/template/base.py", line 910, in render_annotated
+    return self.render(context)
+  File "/home/dell/anaconda3/lib/python3.6/site-packages/django/template/defaulttags.py", line 447, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "/home/dell/anaconda3/lib/python3.6/site-packages/django/urls/base.py", line 88, in reverse
+    return iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs))
+  File "/home/dell/anaconda3/lib/python3.6/site-packages/django/urls/resolvers.py", line 632, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'bookshow' not found. 'bookshow' is not a valid view function or pattern name.
+Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/dell/anaconda3/lib/python3.6/site-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/home/dell/anaconda3/lib/python3.6/site-packages/django/core/handlers/base.py", line 158, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/dell/anaconda3/lib/python3.6/site-packages/django/core/handlers/base.py", line 156, in _get_response
+    response = response.render()
+  File "/home/dell/anaconda3/lib/python3.6/site-packages/django/template/response.py", line 106, in render
+    self.content = self.rendered_content
+  File "/home/dell/anaconda3/lib/python3.6/site-packages/django/template/response.py", line 83, in rendered_content
+    content = template.render(context, self._request)
+  File "/home/dell/anaconda3/lib/python3.6/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/home/dell/anaconda3/lib/python3.6/site-packages/django/template/base.py", line 175, in render
+    return self._render(context)
+  File "/home/dell/anaconda3/lib/python3.6/site-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "/home/dell/anaconda3/lib/python3.6/site-packages/django/template/base.py", line 943, in render
+    bit = node.render_annotated(context)
+  File "/home/dell/anaconda3/lib/python3.6/site-packages/django/template/base.py", line 910, in render_annotated
+    return self.render(context)
+  File "/home/dell/anaconda3/lib/python3.6/site-packages/django/template/loader_tags.py", line 155, in render
+    return compiled_parent._render(context)
+  File "/home/dell/anaconda3/lib/python3.6/site-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "/home/dell/anaconda3/lib/python3.6/site-packages/django/template/base.py", line 943, in render
+    bit = node.render_annotated(context)
+  File "/home/dell/anaconda3/lib/python3.6/site-packages/django/template/base.py", line 910, in render_annotated
+    return self.render(context)
+  File "/home/dell/anaconda3/lib/python3.6/site-packages/django/template/defaulttags.py", line 447, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "/home/dell/anaconda3/lib/python3.6/site-packages/django/urls/base.py", line 88, in reverse
+    return iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs))
+  File "/home/dell/anaconda3/lib/python3.6/site-packages/django/urls/resolvers.py", line 632, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'bookshow' not found. 'bookshow' is not a valid view function or pattern name.
+"GET / HTTP/1.1" 500 151121
+"GET / HTTP/1.1" 500 151121

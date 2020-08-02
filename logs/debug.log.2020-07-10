@@ -1,0 +1,1324 @@
+"GET / HTTP/1.1" 200 18571
+"GET / HTTP/1.1" 200 18571
+"GET /static/vendor/owl.carousel/assets/owl.theme.default.css HTTP/1.1" 200 1380
+"GET /static/vendor/owl.carousel/assets/owl.theme.default.css HTTP/1.1" 200 1380
+"GET /static/css/custom.css HTTP/1.1" 200 25
+"GET /static/css/custom.css HTTP/1.1" 200 25
+"GET /static/js/front.js HTTP/1.1" 200 8053
+"GET /static/js/front.js HTTP/1.1" 200 8053
+"GET /static/vendor/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 8192
+"GET /static/vendor/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 8192
+"GET /static/vendor/owl.carousel/assets/owl.carousel.css HTTP/1.1" 200 4744
+"GET /static/vendor/owl.carousel/assets/owl.carousel.css HTTP/1.1" 200 4744
+"GET /static/vendor/bootstrap-select/js/bootstrap-select.min.js HTTP/1.1" 200 44448
+"GET /static/vendor/bootstrap-select/js/bootstrap-select.min.js HTTP/1.1" 200 44448
+"GET /static/vendor/owl.carousel/owl.carousel.min.js HTTP/1.1" 200 44342
+"GET /static/vendor/owl.carousel/owl.carousel.min.js HTTP/1.1" 200 44342
+"GET /static/css/style.default.css HTTP/1.1" 200 57334
+"GET /static/css/style.default.css HTTP/1.1" 200 57334
+"GET /static/vendor/font-awesome/css/font-awesome.min.css HTTP/1.1" 200 31396
+"GET /static/vendor/font-awesome/css/font-awesome.min.css HTTP/1.1" 200 31396
+"GET /static/img/logo-small.png HTTP/1.1" 200 5152
+"GET /static/img/logo-small.png HTTP/1.1" 200 5152
+"GET /static/img/company-1.png HTTP/1.1" 200 3494
+"GET /static/img/company-1.png HTTP/1.1" 200 3494
+"GET /static/img/meeting.jpg HTTP/1.1" 200 144248
+"GET /static/img/meeting.jpg HTTP/1.1" 200 144248
+"GET /static/img/featured1.jpg HTTP/1.1" 200 121881
+"GET /static/img/featured1.jpg HTTP/1.1" 200 121881
+"GET /static/img/startup.jpg HTTP/1.1" 404 1669
+"GET /static/img/startup.jpg HTTP/1.1" 404 1669
+Not Found: /favicon.png
+Not Found: /favicon.png
+"GET /favicon.png HTTP/1.1" 404 6440
+"GET /favicon.png HTTP/1.1" 404 6440
+"GET / HTTP/1.1" 200 18571
+"GET / HTTP/1.1" 200 18571
+"GET /static/img/meeting.jpg HTTP/1.1" 304 0
+"GET /static/img/meeting.jpg HTTP/1.1" 304 0
+"GET /static/img/startup.jpg HTTP/1.1" 404 1669
+"GET /static/img/startup.jpg HTTP/1.1" 404 1669
+"GET / HTTP/1.1" 200 18580
+"GET / HTTP/1.1" 200 18580
+"GET /static/img/startup.jpg HTTP/1.1" 404 1669
+"GET /static/img/startup.jpg HTTP/1.1" 404 1669
+Not Found: /auditions/
+Not Found: /auditions/
+"GET /auditions/ HTTP/1.1" 404 6569
+"GET /auditions/ HTTP/1.1" 404 6569
+"GET / HTTP/1.1" 200 18582
+"GET / HTTP/1.1" 200 18582
+"GET /static/img/startup.jpg HTTP/1.1" 404 1669
+"GET /static/img/startup.jpg HTTP/1.1" 404 1669
+"GET /aud_exhibit/ HTTP/1.1" 200 3055
+"GET /aud_exhibit/ HTTP/1.1" 200 3055
+Not Found: /aud_exhibit/style.css
+Not Found: /aud_exhibit/style.css
+Not Found: /aud_exhibit/script.js
+Not Found: /aud_exhibit/script.js
+"GET /aud_exhibit/style.css HTTP/1.1" 404 6602
+"GET /aud_exhibit/style.css HTTP/1.1" 404 6602
+"GET /aud_exhibit/script.js HTTP/1.1" 404 6602
+"GET /aud_exhibit/script.js HTTP/1.1" 404 6602
+Not Found: /aud_exhibit/script.js
+Not Found: /aud_exhibit/script.js
+"GET /aud_exhibit/script.js HTTP/1.1" 404 6602
+"GET /aud_exhibit/script.js HTTP/1.1" 404 6602
+"GET / HTTP/1.1" 200 18582
+"GET / HTTP/1.1" 200 18582
+"GET /static/vendor/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 8192
+"GET /static/vendor/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 8192
+"GET /static/vendor/font-awesome/css/font-awesome.min.css HTTP/1.1" 200 8192
+"GET /static/vendor/font-awesome/css/font-awesome.min.css HTTP/1.1" 200 8192
+"GET /static/img/meeting.jpg HTTP/1.1" 200 144248
+"GET /static/img/meeting.jpg HTTP/1.1" 200 144248
+"GET /static/img/startup.jpg HTTP/1.1" 404 1669
+"GET /static/img/startup.jpg HTTP/1.1" 404 1669
+Not Found: /favicon.png
+Not Found: /favicon.png
+"GET /favicon.png HTTP/1.1" 404 6572
+"GET /favicon.png HTTP/1.1" 404 6572
+Internal Server Error: /aud_exhibit/
+Traceback (most recent call last):
+  File "/home/dell/anaconda3/lib/python3.6/site-packages/django/template/base.py", line 475, in parse
+    compile_func = self.tags[command]
+KeyError: 'static'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/dell/anaconda3/lib/python3.6/site-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/home/dell/anaconda3/lib/python3.6/site-packages/django/core/handlers/base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/dell/anaconda3/lib/python3.6/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/dell/Documents/Vyaspeeth/dashboard/views.py", line 28, in auditions
+    return render(request, template, context)
+  File "/home/dell/anaconda3/lib/python3.6/site-packages/django/shortcuts.py", line 36, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/dell/anaconda3/lib/python3.6/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/home/dell/anaconda3/lib/python3.6/site-packages/django/template/loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "/home/dell/anaconda3/lib/python3.6/site-packages/django/template/backends/django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "/home/dell/anaconda3/lib/python3.6/site-packages/django/template/engine.py", line 144, in get_template
+    template, origin = self.find_template(template_name)
+  File "/home/dell/anaconda3/lib/python3.6/site-packages/django/template/engine.py", line 126, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "/home/dell/anaconda3/lib/python3.6/site-packages/django/template/loaders/base.py", line 30, in get_template
+    contents, origin, origin.template_name, self.engine,
+  File "/home/dell/anaconda3/lib/python3.6/site-packages/django/template/base.py", line 160, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "/home/dell/anaconda3/lib/python3.6/site-packages/django/template/base.py", line 198, in compile_nodelist
+    return parser.parse()
+  File "/home/dell/anaconda3/lib/python3.6/site-packages/django/template/base.py", line 477, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "/home/dell/anaconda3/lib/python3.6/site-packages/django/template/base.py", line 539, in invalid_block_tag
+    "or load this tag?" % (token.lineno, command)
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 8: 'static'. Did you forget to register or load this tag?
+Internal Server Error: /aud_exhibit/
+Traceback (most recent call last):
+  File "/home/dell/anaconda3/lib/python3.6/site-packages/django/template/base.py", line 475, in parse
+    compile_func = self.tags[command]
+KeyError: 'static'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/dell/anaconda3/lib/python3.6/site-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/home/dell/anaconda3/lib/python3.6/site-packages/django/core/handlers/base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/dell/anaconda3/lib/python3.6/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/dell/Documents/Vyaspeeth/dashboard/views.py", line 28, in auditions
+    return render(request, template, context)
+  File "/home/dell/anaconda3/lib/python3.6/site-packages/django/shortcuts.py", line 36, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/dell/anaconda3/lib/python3.6/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/home/dell/anaconda3/lib/python3.6/site-packages/django/template/loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "/home/dell/anaconda3/lib/python3.6/site-packages/django/template/backends/django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "/home/dell/anaconda3/lib/python3.6/site-packages/django/template/engine.py", line 144, in get_template
+    template, origin = self.find_template(template_name)
+  File "/home/dell/anaconda3/lib/python3.6/site-packages/django/template/engine.py", line 126, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "/home/dell/anaconda3/lib/python3.6/site-packages/django/template/loaders/base.py", line 30, in get_template
+    contents, origin, origin.template_name, self.engine,
+  File "/home/dell/anaconda3/lib/python3.6/site-packages/django/template/base.py", line 160, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "/home/dell/anaconda3/lib/python3.6/site-packages/django/template/base.py", line 198, in compile_nodelist
+    return parser.parse()
+  File "/home/dell/anaconda3/lib/python3.6/site-packages/django/template/base.py", line 477, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "/home/dell/anaconda3/lib/python3.6/site-packages/django/template/base.py", line 539, in invalid_block_tag
+    "or load this tag?" % (token.lineno, command)
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 8: 'static'. Did you forget to register or load this tag?
+"GET /aud_exhibit/ HTTP/1.1" 500 144983
+"GET /aud_exhibit/ HTTP/1.1" 500 144983
+"GET / HTTP/1.1" 200 18582
+"GET / HTTP/1.1" 200 18582
+"GET /static/img/startup.jpg HTTP/1.1" 404 1669
+"GET /static/img/startup.jpg HTTP/1.1" 404 1669
+"GET /aud_exhibit/ HTTP/1.1" 200 3070
+"GET /aud_exhibit/ HTTP/1.1" 200 3070
+"GET /static/css/style.css HTTP/1.1" 200 1349
+"GET /static/css/style.css HTTP/1.1" 200 1349
+"GET /static/js/script.js HTTP/1.1" 200 1098
+"GET /static/js/script.js HTTP/1.1" 200 1098
+"GET /static/css/img/dance3.jpg HTTP/1.1" 404 1678
+"GET /static/css/img/dance3.jpg HTTP/1.1" 404 1678
+"GET /static/css/img/warli1.jpg HTTP/1.1" 404 1678
+"GET /static/css/img/warli1.jpg HTTP/1.1" 404 1678
+"GET /static/css/img/sponsors.jpg HTTP/1.1" 404 1684
+"GET /static/css/img/sponsors.jpg HTTP/1.1" 404 1684
+"GET / HTTP/1.1" 200 18582
+"GET / HTTP/1.1" 200 18582
+"GET /static/img/startup.jpg HTTP/1.1" 404 1669
+"GET /static/img/startup.jpg HTTP/1.1" 404 1669
+"GET /aud_exhibit/ HTTP/1.1" 200 3070
+"GET /aud_exhibit/ HTTP/1.1" 200 3070
+"GET /static/css/style.css HTTP/1.1" 200 1412
+"GET /static/css/style.css HTTP/1.1" 200 1412
+"GET /static/css/%7B%%20static%20'img/dance3.jpg'%20%%7D HTTP/1.1" 404 1761
+"GET /static/css/%7B%%20static%20'img/dance3.jpg'%20%%7D HTTP/1.1" 404 1761
+"GET /static/css/%7B%%20static%20'img/warli1.jpg'%20%%7D HTTP/1.1" 404 1761
+"GET /static/css/%7B%%20static%20'img/warli1.jpg'%20%%7D HTTP/1.1" 404 1761
+"GET /static/css/%7B%%20static%20'img/sponsors.jpg'%20%%7D HTTP/1.1" 404 1767
+"GET /static/css/%7B%%20static%20'img/sponsors.jpg'%20%%7D HTTP/1.1" 404 1767
+"GET /aud_exhibit/ HTTP/1.1" 200 3070
+"GET /aud_exhibit/ HTTP/1.1" 200 3070
+"GET /static/js/script.js HTTP/1.1" 304 0
+"GET /static/js/script.js HTTP/1.1" 304 0
+"GET /static/css/style.css HTTP/1.1" 200 1359
+"GET /static/css/style.css HTTP/1.1" 200 1359
+"GET /static/img/dance3.jpg HTTP/1.1" 200 79106
+"GET /static/img/dance3.jpg HTTP/1.1" 200 79106
+"GET /static/img/warli1.jpg HTTP/1.1" 200 113921
+"GET /static/img/warli1.jpg HTTP/1.1" 200 113921
+"GET /static/img/sponsors.jpg HTTP/1.1" 200 147112
+"GET /static/img/sponsors.jpg HTTP/1.1" 200 147112
+Internal Server Error: /aud_exhibit/
+Traceback (most recent call last):
+  File "/home/dell/anaconda3/lib/python3.6/site-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/home/dell/anaconda3/lib/python3.6/site-packages/django/core/handlers/base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/dell/anaconda3/lib/python3.6/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/dell/Documents/Vyaspeeth/dashboard/views.py", line 28, in auditions
+    return render(request, template, context)
+  File "/home/dell/anaconda3/lib/python3.6/site-packages/django/shortcuts.py", line 36, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/dell/anaconda3/lib/python3.6/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/home/dell/anaconda3/lib/python3.6/site-packages/django/template/loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "/home/dell/anaconda3/lib/python3.6/site-packages/django/template/backends/django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "/home/dell/anaconda3/lib/python3.6/site-packages/django/template/engine.py", line 144, in get_template
+    template, origin = self.find_template(template_name)
+  File "/home/dell/anaconda3/lib/python3.6/site-packages/django/template/engine.py", line 126, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "/home/dell/anaconda3/lib/python3.6/site-packages/django/template/loaders/base.py", line 30, in get_template
+    contents, origin, origin.template_name, self.engine,
+  File "/home/dell/anaconda3/lib/python3.6/site-packages/django/template/base.py", line 160, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "/home/dell/anaconda3/lib/python3.6/site-packages/django/template/base.py", line 198, in compile_nodelist
+    return parser.parse()
+  File "/home/dell/anaconda3/lib/python3.6/site-packages/django/template/base.py", line 484, in parse
+    self.extend_nodelist(nodelist, compiled_result, token)
+  File "/home/dell/anaconda3/lib/python3.6/site-packages/django/template/base.py", line 502, in extend_nodelist
+    token, '%r must be the first tag in the template.' % node,
+django.template.exceptions.TemplateSyntaxError: <ExtendsNode: extends 'base.html'> must be the first tag in the template.
+Internal Server Error: /aud_exhibit/
+Traceback (most recent call last):
+  File "/home/dell/anaconda3/lib/python3.6/site-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/home/dell/anaconda3/lib/python3.6/site-packages/django/core/handlers/base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/dell/anaconda3/lib/python3.6/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/dell/Documents/Vyaspeeth/dashboard/views.py", line 28, in auditions
+    return render(request, template, context)
+  File "/home/dell/anaconda3/lib/python3.6/site-packages/django/shortcuts.py", line 36, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/dell/anaconda3/lib/python3.6/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/home/dell/anaconda3/lib/python3.6/site-packages/django/template/loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "/home/dell/anaconda3/lib/python3.6/site-packages/django/template/backends/django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "/home/dell/anaconda3/lib/python3.6/site-packages/django/template/engine.py", line 144, in get_template
+    template, origin = self.find_template(template_name)
+  File "/home/dell/anaconda3/lib/python3.6/site-packages/django/template/engine.py", line 126, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "/home/dell/anaconda3/lib/python3.6/site-packages/django/template/loaders/base.py", line 30, in get_template
+    contents, origin, origin.template_name, self.engine,
+  File "/home/dell/anaconda3/lib/python3.6/site-packages/django/template/base.py", line 160, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "/home/dell/anaconda3/lib/python3.6/site-packages/django/template/base.py", line 198, in compile_nodelist
+    return parser.parse()
+  File "/home/dell/anaconda3/lib/python3.6/site-packages/django/template/base.py", line 484, in parse
+    self.extend_nodelist(nodelist, compiled_result, token)
+  File "/home/dell/anaconda3/lib/python3.6/site-packages/django/template/base.py", line 502, in extend_nodelist
+    token, '%r must be the first tag in the template.' % node,
+django.template.exceptions.TemplateSyntaxError: <ExtendsNode: extends 'base.html'> must be the first tag in the template.
+"GET /aud_exhibit/ HTTP/1.1" 500 139620
+"GET /aud_exhibit/ HTTP/1.1" 500 139620
+"GET /aud_exhibit/ HTTP/1.1" 200 5513
+"GET /aud_exhibit/ HTTP/1.1" 200 5513
+"GET /static/vendor/owl.carousel/owl.carousel.min.js HTTP/1.1" 304 0
+"GET /static/vendor/owl.carousel/owl.carousel.min.js HTTP/1.1" 304 0
+"GET /static/vendor/bootstrap-select/js/bootstrap-select.min.js HTTP/1.1" 304 0
+"GET /static/vendor/bootstrap-select/js/bootstrap-select.min.js HTTP/1.1" 304 0
+"GET /static/js/front.js HTTP/1.1" 304 0
+"GET /static/js/front.js HTTP/1.1" 304 0
+"GET /static/vendor/font-awesome/css/font-awesome.min.css HTTP/1.1" 304 0
+"GET /static/vendor/font-awesome/css/font-awesome.min.css HTTP/1.1" 304 0
+"GET /static/vendor/owl.carousel/assets/owl.theme.default.css HTTP/1.1" 304 0
+"GET /static/vendor/owl.carousel/assets/owl.theme.default.css HTTP/1.1" 304 0
+"GET /static/css/custom.css HTTP/1.1" 304 0
+"GET /static/vendor/popper.js/umd/popper.min.js HTTP/1.1" 304 0
+"GET /static/vendor/popper.js/umd/popper.min.js HTTP/1.1" 304 0
+"GET /static/vendor/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+"GET /static/vendor/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+"GET /static/css/custom.css HTTP/1.1" 304 0
+"GET /static/vendor/jquery.cookie/jquery.cookie.js HTTP/1.1" 304 0
+"GET /static/vendor/jquery.cookie/jquery.cookie.js HTTP/1.1" 304 0
+"GET /static/vendor/jquery/jquery.min.js HTTP/1.1" 304 0
+"GET /static/vendor/jquery/jquery.min.js HTTP/1.1" 304 0
+"GET /static/vendor/owl.carousel/assets/owl.carousel.css HTTP/1.1" 304 0
+"GET /static/vendor/owl.carousel/assets/owl.carousel.css HTTP/1.1" 304 0
+"GET /static/vendor/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 140930
+"GET /static/vendor/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 140930
+"GET /static/css/style.default.css HTTP/1.1" 304 0
+"GET /static/css/style.default.css HTTP/1.1" 304 0
+"GET /static/img/logo-small.png HTTP/1.1" 304 0
+"GET /static/img/logo-small.png HTTP/1.1" 304 0
+Not Found: /aud_exhibit/favicon.png
+Not Found: /aud_exhibit/favicon.png
+"GET /aud_exhibit/favicon.png HTTP/1.1" 404 6608
+"GET /aud_exhibit/favicon.png HTTP/1.1" 404 6608
+"GET / HTTP/1.1" 200 18582
+"GET / HTTP/1.1" 200 18582
+"GET /static/vendor/owl.carousel/assets/owl.theme.default.css HTTP/1.1" 200 1380
+"GET /static/vendor/owl.carousel/assets/owl.theme.default.css HTTP/1.1" 200 1380
+"GET /static/vendor/owl.carousel/assets/owl.carousel.css HTTP/1.1" 200 4744
+"GET /static/vendor/owl.carousel/assets/owl.carousel.css HTTP/1.1" 200 4744
+"GET /static/css/custom.css HTTP/1.1" 200 25
+"GET /static/css/custom.css HTTP/1.1" 200 25
+"GET /static/img/logo-small.png HTTP/1.1" 200 5152
+"GET /static/img/logo-small.png HTTP/1.1" 200 5152
+"GET /static/img/meeting.jpg HTTP/1.1" 200 144248
+"GET /static/img/meeting.jpg HTTP/1.1" 200 144248
+"GET /static/img/startup.jpg HTTP/1.1" 404 1669
+"GET /static/img/startup.jpg HTTP/1.1" 404 1669
+Not Found: /favicon.png
+Not Found: /favicon.png
+"GET /favicon.png HTTP/1.1" 404 6572
+"GET /favicon.png HTTP/1.1" 404 6572
+"GET /aud_exhibit/ HTTP/1.1" 200 5513
+"GET /aud_exhibit/ HTTP/1.1" 200 5513
+"GET /static/vendor/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 8192
+"GET /static/vendor/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 8192
+"GET / HTTP/1.1" 200 18582
+"GET / HTTP/1.1" 200 18582
+"GET /static/img/startup.jpg HTTP/1.1" 404 1669
+"GET /static/img/startup.jpg HTTP/1.1" 404 1669
+Not Found: /favicon.png
+Not Found: /favicon.png
+"GET /favicon.png HTTP/1.1" 404 6572
+"GET /favicon.png HTTP/1.1" 404 6572
+"GET /aud_exhibit/ HTTP/1.1" 200 7717
+"GET /aud_exhibit/ HTTP/1.1" 200 7717
+"GET /static/css/style.css HTTP/1.1" 200 1359
+"GET /static/css/style.css HTTP/1.1" 200 1359
+"GET /static/img/warli1.jpg HTTP/1.1" 304 0
+"GET /static/img/warli1.jpg HTTP/1.1" 304 0
+"GET /static/img/sponsors.jpg HTTP/1.1" 304 0
+"GET /static/img/sponsors.jpg HTTP/1.1" 304 0
+"GET /aud_exhibit/ HTTP/1.1" 200 7717
+"GET /aud_exhibit/ HTTP/1.1" 200 7717
+"GET /static/vendor/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+"GET /static/vendor/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+"GET /static/vendor/owl.carousel/assets/owl.carousel.css HTTP/1.1" 304 0
+"GET /static/vendor/owl.carousel/assets/owl.carousel.css HTTP/1.1" 304 0
+"GET /static/vendor/font-awesome/css/font-awesome.min.css HTTP/1.1" 304 0
+"GET /static/vendor/font-awesome/css/font-awesome.min.css HTTP/1.1" 304 0
+"GET /static/vendor/owl.carousel/assets/owl.theme.default.css HTTP/1.1" 304 0
+"GET /static/vendor/owl.carousel/assets/owl.theme.default.css HTTP/1.1" 304 0
+"GET /static/css/style.default.css HTTP/1.1" 304 0
+"GET /static/css/style.default.css HTTP/1.1" 304 0
+"GET /static/css/custom.css HTTP/1.1" 304 0
+"GET /static/css/custom.css HTTP/1.1" 304 0
+"GET /static/js/script.js HTTP/1.1" 304 0
+"GET /static/js/script.js HTTP/1.1" 304 0
+"GET /static/vendor/jquery/jquery.min.js HTTP/1.1" 304 0
+"GET /static/vendor/jquery.cookie/jquery.cookie.js HTTP/1.1" 304 0
+"GET /static/vendor/jquery.cookie/jquery.cookie.js HTTP/1.1" 304 0
+"GET /static/vendor/jquery/jquery.min.js HTTP/1.1" 304 0
+"GET /static/vendor/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+"GET /static/vendor/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+"GET /static/vendor/popper.js/umd/popper.min.js HTTP/1.1" 304 0
+"GET /static/vendor/popper.js/umd/popper.min.js HTTP/1.1" 304 0
+"GET /static/vendor/bootstrap-select/js/bootstrap-select.min.js HTTP/1.1" 304 0
+"GET /static/vendor/bootstrap-select/js/bootstrap-select.min.js HTTP/1.1" 304 0
+"GET /static/vendor/owl.carousel/owl.carousel.min.js HTTP/1.1" 304 0
+"GET /static/vendor/owl.carousel/owl.carousel.min.js HTTP/1.1" 304 0
+"GET /static/js/front.js HTTP/1.1" 304 0
+"GET /static/css/style.css HTTP/1.1" 304 0
+"GET /static/js/front.js HTTP/1.1" 304 0
+"GET /static/css/style.css HTTP/1.1" 304 0
+"GET /static/img/logo-small.png HTTP/1.1" 304 0
+"GET /static/img/logo-small.png HTTP/1.1" 304 0
+"GET /static/img/dance3.jpg HTTP/1.1" 304 0
+"GET /static/img/dance3.jpg HTTP/1.1" 304 0
+"GET /aud_exhibit/ HTTP/1.1" 200 7717
+"GET /aud_exhibit/ HTTP/1.1" 200 7717
+"GET /static/vendor/font-awesome/css/font-awesome.min.css HTTP/1.1" 304 0
+"GET /static/vendor/font-awesome/css/font-awesome.min.css HTTP/1.1" 304 0
+"GET /static/vendor/owl.carousel/assets/owl.carousel.css HTTP/1.1" 304 0
+"GET /static/vendor/owl.carousel/assets/owl.carousel.css HTTP/1.1" 304 0
+"GET /static/vendor/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+"GET /static/vendor/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+"GET /static/vendor/owl.carousel/assets/owl.theme.default.css HTTP/1.1" 304 0
+"GET /static/vendor/owl.carousel/assets/owl.theme.default.css HTTP/1.1" 304 0
+"GET /static/css/custom.css HTTP/1.1" 304 0
+"GET /static/css/custom.css HTTP/1.1" 304 0
+"GET /static/css/style.css HTTP/1.1" 304 0
+"GET /static/css/style.css HTTP/1.1" 304 0
+"GET /static/vendor/jquery/jquery.min.js HTTP/1.1" 304 0
+"GET /static/vendor/jquery/jquery.min.js HTTP/1.1" 304 0
+"GET /static/js/script.js HTTP/1.1" 304 0
+"GET /static/js/script.js HTTP/1.1" 304 0
+"GET /static/css/style.default.css HTTP/1.1" 304 0
+"GET /static/css/style.default.css HTTP/1.1" 304 0
+"GET /static/vendor/jquery.cookie/jquery.cookie.js HTTP/1.1" 304 0
+"GET /static/vendor/jquery.cookie/jquery.cookie.js HTTP/1.1" 304 0
+"GET /static/vendor/popper.js/umd/popper.min.js HTTP/1.1" 304 0
+"GET /static/vendor/popper.js/umd/popper.min.js HTTP/1.1" 304 0
+"GET /static/vendor/owl.carousel/owl.carousel.min.js HTTP/1.1" 304 0
+"GET /static/vendor/owl.carousel/owl.carousel.min.js HTTP/1.1" 304 0
+"GET /static/vendor/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+"GET /static/vendor/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+"GET /static/js/front.js HTTP/1.1" 304 0
+"GET /static/img/logo-small.png HTTP/1.1" 304 0
+"GET /static/vendor/bootstrap-select/js/bootstrap-select.min.js HTTP/1.1" 304 0
+"GET /static/js/front.js HTTP/1.1" 304 0
+"GET /static/img/logo-small.png HTTP/1.1" 304 0
+"GET /static/vendor/bootstrap-select/js/bootstrap-select.min.js HTTP/1.1" 304 0
+"GET /static/img/dance3.jpg HTTP/1.1" 304 0
+"GET /static/img/dance3.jpg HTTP/1.1" 304 0
+"GET /static/img/warli1.jpg HTTP/1.1" 200 113921
+"GET /static/img/warli1.jpg HTTP/1.1" 200 113921
+"GET /static/img/sponsors.jpg HTTP/1.1" 200 147112
+"GET /static/img/sponsors.jpg HTTP/1.1" 200 147112
+"GET / HTTP/1.1" 200 18582
+"GET / HTTP/1.1" 200 18582
+"GET /static/img/startup.jpg HTTP/1.1" 404 1669
+"GET /static/img/startup.jpg HTTP/1.1" 404 1669
+"GET /aud_exhibit/ HTTP/1.1" 200 7717
+"GET /aud_exhibit/ HTTP/1.1" 200 7717
+Not Found: /aud_exhibit/bookshow/
+Not Found: /aud_exhibit/bookshow/
+"GET /aud_exhibit/bookshow/ HTTP/1.1" 404 6602
+"GET /aud_exhibit/bookshow/ HTTP/1.1" 404 6602
+"GET / HTTP/1.1" 200 18582
+"GET / HTTP/1.1" 200 18582
+"GET /static/img/startup.jpg HTTP/1.1" 404 1669
+"GET /static/img/startup.jpg HTTP/1.1" 404 1669
+"GET /aud_exhibit/ HTTP/1.1" 200 7406
+"GET /aud_exhibit/ HTTP/1.1" 200 7406
+"GET /static/css/style.css HTTP/1.1" 200 1359
+"GET /static/css/style.css HTTP/1.1" 200 1359
+Not Found: /aud_exhibit/favicon.png
+Not Found: /aud_exhibit/favicon.png
+"GET /aud_exhibit/favicon.png HTTP/1.1" 404 6608
+"GET /aud_exhibit/favicon.png HTTP/1.1" 404 6608
+"GET / HTTP/1.1" 200 18582
+"GET / HTTP/1.1" 200 18582
+"GET /static/img/startup.jpg HTTP/1.1" 404 1669
+"GET /static/img/startup.jpg HTTP/1.1" 404 1669
+"GET /aud_exhibit/ HTTP/1.1" 200 7611
+"GET /aud_exhibit/ HTTP/1.1" 200 7611
+"GET /static/css/style.css HTTP/1.1" 304 0
+"GET /static/css/style.css HTTP/1.1" 304 0
+"GET /aud_exhibit/ HTTP/1.1" 200 7718
+"GET /aud_exhibit/ HTTP/1.1" 200 7718
+"GET /static/vendor/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+"GET /static/vendor/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+"GET /static/vendor/font-awesome/css/font-awesome.min.css HTTP/1.1" 304 0
+"GET /static/vendor/font-awesome/css/font-awesome.min.css HTTP/1.1" 304 0
+"GET /static/js/script.js HTTP/1.1" 304 0
+"GET /static/js/script.js HTTP/1.1" 304 0
+"GET /static/vendor/jquery/jquery.min.js HTTP/1.1" 304 0
+"GET /static/vendor/jquery/jquery.min.js HTTP/1.1" 304 0
+"GET /static/vendor/popper.js/umd/popper.min.js HTTP/1.1" 304 0
+"GET /static/vendor/popper.js/umd/popper.min.js HTTP/1.1" 304 0
+"GET /static/vendor/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+"GET /static/vendor/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+"GET /static/css/style.css HTTP/1.1" 304 0
+"GET /static/css/style.css HTTP/1.1" 304 0
+"GET /static/vendor/jquery.cookie/jquery.cookie.js HTTP/1.1" 304 0
+"GET /static/vendor/owl.carousel/owl.carousel.min.js HTTP/1.1" 304 0
+"GET /static/vendor/jquery.cookie/jquery.cookie.js HTTP/1.1" 304 0
+"GET /static/vendor/bootstrap-select/js/bootstrap-select.min.js HTTP/1.1" 304 0
+"GET /static/vendor/bootstrap-select/js/bootstrap-select.min.js HTTP/1.1" 304 0
+"GET /static/css/style.default.css HTTP/1.1" 304 0
+"GET /static/vendor/owl.carousel/owl.carousel.min.js HTTP/1.1" 304 0
+"GET /static/vendor/owl.carousel/assets/owl.carousel.css HTTP/1.1" 304 0
+"GET /static/vendor/owl.carousel/assets/owl.carousel.css HTTP/1.1" 304 0
+"GET /static/css/style.default.css HTTP/1.1" 304 0
+"GET /static/css/custom.css HTTP/1.1" 304 0
+"GET /static/css/custom.css HTTP/1.1" 304 0
+"GET /static/vendor/owl.carousel/assets/owl.theme.default.css HTTP/1.1" 304 0
+"GET /static/vendor/owl.carousel/assets/owl.theme.default.css HTTP/1.1" 304 0
+"GET /static/js/front.js HTTP/1.1" 304 0
+"GET /static/js/front.js HTTP/1.1" 304 0
+"GET /static/img/logo-small.png HTTP/1.1" 200 5152
+"GET /static/img/logo-small.png HTTP/1.1" 200 5152
+"GET /static/img/dance3.jpg HTTP/1.1" 304 0
+"GET /static/img/dance3.jpg HTTP/1.1" 304 0
+"GET /aud_exhibit/ HTTP/1.1" 200 7718
+"GET /aud_exhibit/ HTTP/1.1" 200 7718
+"GET /static/js/script.js HTTP/1.1" 304 0
+"GET /static/js/script.js HTTP/1.1" 304 0
+"GET /static/vendor/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+"GET /static/vendor/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+"GET /static/vendor/owl.carousel/owl.carousel.min.js HTTP/1.1" 304 0
+"GET /static/vendor/owl.carousel/owl.carousel.min.js HTTP/1.1" 304 0
+"GET /static/vendor/jquery/jquery.min.js HTTP/1.1" 304 0
+"GET /static/vendor/popper.js/umd/popper.min.js HTTP/1.1" 304 0
+"GET /static/vendor/jquery.cookie/jquery.cookie.js HTTP/1.1" 304 0
+"GET /static/vendor/jquery.cookie/jquery.cookie.js HTTP/1.1" 304 0
+"GET /static/vendor/jquery/jquery.min.js HTTP/1.1" 304 0
+"GET /static/vendor/popper.js/umd/popper.min.js HTTP/1.1" 304 0
+"GET /static/vendor/bootstrap-select/js/bootstrap-select.min.js HTTP/1.1" 304 0
+"GET /static/vendor/bootstrap-select/js/bootstrap-select.min.js HTTP/1.1" 304 0
+"GET /static/vendor/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+"GET /static/vendor/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+"GET /static/css/style.css HTTP/1.1" 304 0
+"GET /static/css/style.css HTTP/1.1" 304 0
+"GET /static/vendor/owl.carousel/assets/owl.theme.default.css HTTP/1.1" 304 0
+"GET /static/vendor/owl.carousel/assets/owl.theme.default.css HTTP/1.1" 304 0
+"GET /static/vendor/owl.carousel/assets/owl.carousel.css HTTP/1.1" 304 0
+"GET /static/vendor/owl.carousel/assets/owl.carousel.css HTTP/1.1" 304 0
+"GET /static/vendor/font-awesome/css/font-awesome.min.css HTTP/1.1" 304 0
+"GET /static/vendor/font-awesome/css/font-awesome.min.css HTTP/1.1" 304 0
+"GET /static/css/custom.css HTTP/1.1" 304 0
+"GET /static/css/custom.css HTTP/1.1" 304 0
+"GET /static/js/front.js HTTP/1.1" 304 0
+"GET /static/js/front.js HTTP/1.1" 304 0
+"GET /static/css/style.default.css HTTP/1.1" 304 0
+"GET /static/css/style.default.css HTTP/1.1" 304 0
+"GET /static/img/logo-small.png HTTP/1.1" 200 5152
+"GET /static/img/logo-small.png HTTP/1.1" 200 5152
+"GET /static/img/dance3.jpg HTTP/1.1" 304 0
+"GET /static/img/dance3.jpg HTTP/1.1" 304 0
+"GET /static/img/warli1.jpg HTTP/1.1" 304 0
+"GET /static/img/warli1.jpg HTTP/1.1" 304 0
+"GET /static/img/sponsors.jpg HTTP/1.1" 304 0
+"GET /static/img/sponsors.jpg HTTP/1.1" 304 0
+"GET / HTTP/1.1" 200 18582
+"GET / HTTP/1.1" 200 18582
+"GET /static/img/startup.jpg HTTP/1.1" 404 1669
+"GET /static/img/startup.jpg HTTP/1.1" 404 1669
+"GET /aud_exhibit/ HTTP/1.1" 200 7718
+"GET /aud_exhibit/ HTTP/1.1" 200 7718
+"GET /static/css/style.css HTTP/1.1" 200 1359
+"GET /static/css/style.css HTTP/1.1" 200 1359
+"GET /static/img/warli1.jpg HTTP/1.1" 200 8192
+"GET /static/img/warli1.jpg HTTP/1.1" 200 8192
+"GET / HTTP/1.1" 200 18582
+"GET / HTTP/1.1" 200 18582
+"GET /static/img/startup.jpg HTTP/1.1" 404 1669
+"GET /static/img/startup.jpg HTTP/1.1" 404 1669
+"GET /aud_exhibit/ HTTP/1.1" 200 7718
+"GET /aud_exhibit/ HTTP/1.1" 200 7718
+"GET /static/css/style.css HTTP/1.1" 200 1359
+"GET /static/css/style.css HTTP/1.1" 200 1359
+"GET /static/img/dance3.jpg HTTP/1.1" 200 8192
+"GET /static/img/dance3.jpg HTTP/1.1" 200 8192
+"GET /aud_exhibit/ HTTP/1.1" 200 7611
+"GET /aud_exhibit/ HTTP/1.1" 200 7611
+"GET /static/js/script.js HTTP/1.1" 304 0
+"GET /static/js/script.js HTTP/1.1" 304 0
+"GET /static/vendor/jquery/jquery.min.js HTTP/1.1" 304 0
+"GET /static/vendor/jquery/jquery.min.js HTTP/1.1" 304 0
+"GET /static/vendor/popper.js/umd/popper.min.js HTTP/1.1" 304 0
+"GET /static/vendor/popper.js/umd/popper.min.js HTTP/1.1" 304 0
+"GET /static/vendor/jquery.cookie/jquery.cookie.js HTTP/1.1" 304 0
+"GET /static/vendor/jquery.cookie/jquery.cookie.js HTTP/1.1" 304 0
+"GET /static/vendor/owl.carousel/owl.carousel.min.js HTTP/1.1" 304 0
+"GET /static/vendor/owl.carousel/owl.carousel.min.js HTTP/1.1" 304 0
+"GET /static/vendor/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+"GET /static/vendor/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+"GET /static/js/front.js HTTP/1.1" 304 0
+"GET /static/vendor/bootstrap-select/js/bootstrap-select.min.js HTTP/1.1" 304 0
+"GET /static/vendor/bootstrap-select/js/bootstrap-select.min.js HTTP/1.1" 304 0
+"GET /static/js/front.js HTTP/1.1" 304 0
+"GET /static/vendor/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+"GET /static/vendor/font-awesome/css/font-awesome.min.css HTTP/1.1" 304 0
+"GET /static/vendor/font-awesome/css/font-awesome.min.css HTTP/1.1" 304 0
+"GET /static/vendor/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+"GET /static/vendor/owl.carousel/assets/owl.theme.default.css HTTP/1.1" 304 0
+"GET /static/vendor/owl.carousel/assets/owl.theme.default.css HTTP/1.1" 304 0
+"GET /static/vendor/owl.carousel/assets/owl.carousel.css HTTP/1.1" 304 0
+"GET /static/vendor/owl.carousel/assets/owl.carousel.css HTTP/1.1" 304 0
+"GET /static/css/custom.css HTTP/1.1" 304 0
+"GET /static/css/custom.css HTTP/1.1" 304 0
+"GET /static/css/style.css HTTP/1.1" 304 0
+"GET /static/css/style.css HTTP/1.1" 304 0
+"GET /static/css/style.default.css HTTP/1.1" 304 0
+"GET /static/css/style.default.css HTTP/1.1" 304 0
+"GET /static/img/logo-small.png HTTP/1.1" 200 5152
+"GET /static/img/logo-small.png HTTP/1.1" 200 5152
+"GET /static/img/dance3.jpg HTTP/1.1" 304 0
+"GET /static/img/dance3.jpg HTTP/1.1" 304 0
+"GET /aud_exhibit/ HTTP/1.1" 200 7611
+"GET /aud_exhibit/ HTTP/1.1" 200 7611
+"GET /static/vendor/font-awesome/css/font-awesome.min.css HTTP/1.1" 304 0
+"GET /static/vendor/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+"GET /static/vendor/font-awesome/css/font-awesome.min.css HTTP/1.1" 304 0
+"GET /static/vendor/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+"GET /static/vendor/owl.carousel/assets/owl.carousel.css HTTP/1.1" 304 0
+"GET /static/vendor/owl.carousel/assets/owl.carousel.css HTTP/1.1" 304 0
+"GET /static/vendor/owl.carousel/assets/owl.theme.default.css HTTP/1.1" 304 0
+"GET /static/vendor/owl.carousel/assets/owl.theme.default.css HTTP/1.1" 304 0
+"GET /static/css/style.default.css HTTP/1.1" 304 0
+"GET /static/css/style.default.css HTTP/1.1" 304 0
+"GET /static/css/custom.css HTTP/1.1" 304 0
+"GET /static/css/custom.css HTTP/1.1" 304 0
+"GET /static/css/style.css HTTP/1.1" 304 0
+"GET /static/css/style.css HTTP/1.1" 304 0
+"GET /static/js/script.js HTTP/1.1" 304 0
+"GET /static/js/script.js HTTP/1.1" 304 0
+"GET /static/vendor/jquery/jquery.min.js HTTP/1.1" 304 0
+"GET /static/vendor/jquery/jquery.min.js HTTP/1.1" 304 0
+"GET /static/vendor/popper.js/umd/popper.min.js HTTP/1.1" 304 0
+"GET /static/vendor/popper.js/umd/popper.min.js HTTP/1.1" 304 0
+"GET /static/vendor/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+"GET /static/vendor/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+"GET /static/vendor/jquery.cookie/jquery.cookie.js HTTP/1.1" 304 0
+"GET /static/vendor/jquery.cookie/jquery.cookie.js HTTP/1.1" 304 0
+"GET /static/vendor/owl.carousel/owl.carousel.min.js HTTP/1.1" 304 0
+"GET /static/vendor/owl.carousel/owl.carousel.min.js HTTP/1.1" 304 0
+"GET /static/js/front.js HTTP/1.1" 304 0
+"GET /static/js/front.js HTTP/1.1" 304 0
+"GET /static/vendor/bootstrap-select/js/bootstrap-select.min.js HTTP/1.1" 304 0
+"GET /static/vendor/bootstrap-select/js/bootstrap-select.min.js HTTP/1.1" 304 0
+"GET /static/img/logo-small.png HTTP/1.1" 304 0
+"GET /static/img/logo-small.png HTTP/1.1" 304 0
+"GET /static/img/dance3.jpg HTTP/1.1" 304 0
+"GET /static/img/dance3.jpg HTTP/1.1" 304 0
+"GET /static/img/warli1.jpg HTTP/1.1" 304 0
+"GET /static/img/warli1.jpg HTTP/1.1" 304 0
+"GET /aud_exhibit/ HTTP/1.1" 200 7510
+"GET /aud_exhibit/ HTTP/1.1" 200 7510
+"GET /static/vendor/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+"GET /static/vendor/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+"GET /static/vendor/font-awesome/css/font-awesome.min.css HTTP/1.1" 304 0
+"GET /static/vendor/font-awesome/css/font-awesome.min.css HTTP/1.1" 304 0
+"GET /static/js/script.js HTTP/1.1" 304 0
+"GET /static/js/script.js HTTP/1.1" 304 0
+"GET /static/vendor/owl.carousel/assets/owl.theme.default.css HTTP/1.1" 304 0
+"GET /static/vendor/owl.carousel/assets/owl.theme.default.css HTTP/1.1" 304 0
+"GET /static/vendor/popper.js/umd/popper.min.js HTTP/1.1" 304 0
+"GET /static/vendor/popper.js/umd/popper.min.js HTTP/1.1" 304 0
+"GET /static/vendor/jquery/jquery.min.js HTTP/1.1" 304 0
+"GET /static/vendor/jquery/jquery.min.js HTTP/1.1" 304 0
+"GET /static/vendor/owl.carousel/assets/owl.carousel.css HTTP/1.1" 304 0
+"GET /static/vendor/owl.carousel/assets/owl.carousel.css HTTP/1.1" 304 0
+"GET /static/vendor/jquery.cookie/jquery.cookie.js HTTP/1.1" 304 0
+"GET /static/vendor/jquery.cookie/jquery.cookie.js HTTP/1.1" 304 0
+"GET /static/css/style.default.css HTTP/1.1" 304 0
+"GET /static/css/style.default.css HTTP/1.1" 304 0
+"GET /static/vendor/bootstrap-select/js/bootstrap-select.min.js HTTP/1.1" 304 0
+"GET /static/vendor/bootstrap-select/js/bootstrap-select.min.js HTTP/1.1" 304 0
+"GET /static/css/style.css HTTP/1.1" 304 0
+"GET /static/css/style.css HTTP/1.1" 304 0
+"GET /static/vendor/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+"GET /static/vendor/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+"GET /static/vendor/owl.carousel/owl.carousel.min.js HTTP/1.1" 304 0
+"GET /static/vendor/owl.carousel/owl.carousel.min.js HTTP/1.1" 304 0
+"GET /static/css/custom.css HTTP/1.1" 304 0
+"GET /static/css/custom.css HTTP/1.1" 304 0
+"GET /static/js/front.js HTTP/1.1" 304 0
+"GET /static/js/front.js HTTP/1.1" 304 0
+"GET /static/img/logo-small.png HTTP/1.1" 200 5152
+"GET /static/img/logo-small.png HTTP/1.1" 200 5152
+"GET /static/img/dance3.jpg HTTP/1.1" 304 0
+"GET /static/img/dance3.jpg HTTP/1.1" 304 0
+"GET /static/img/warli1.jpg HTTP/1.1" 200 113921
+"GET /static/img/warli1.jpg HTTP/1.1" 200 113921
+"GET /static/img/sponsors.jpg HTTP/1.1" 200 147112
+"GET /static/img/sponsors.jpg HTTP/1.1" 200 147112
+"GET /aud_exhibit/ HTTP/1.1" 200 7505
+"GET /aud_exhibit/ HTTP/1.1" 200 7505
+"GET /static/js/script.js HTTP/1.1" 304 0
+"GET /static/js/script.js HTTP/1.1" 304 0
+"GET /static/vendor/font-awesome/css/font-awesome.min.css HTTP/1.1" 304 0
+"GET /static/vendor/font-awesome/css/font-awesome.min.css HTTP/1.1" 304 0
+"GET /static/vendor/owl.carousel/assets/owl.carousel.css HTTP/1.1" 304 0
+"GET /static/vendor/owl.carousel/assets/owl.carousel.css HTTP/1.1" 304 0
+"GET /static/css/style.default.css HTTP/1.1" 304 0
+"GET /static/css/style.default.css HTTP/1.1" 304 0
+"GET /static/css/custom.css HTTP/1.1" 304 0
+"GET /static/css/custom.css HTTP/1.1" 304 0
+"GET /static/vendor/owl.carousel/assets/owl.theme.default.css HTTP/1.1" 304 0
+"GET /static/vendor/owl.carousel/assets/owl.theme.default.css HTTP/1.1" 304 0
+"GET /static/vendor/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+"GET /static/vendor/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+"GET /static/vendor/jquery.cookie/jquery.cookie.js HTTP/1.1" 304 0
+"GET /static/vendor/bootstrap-select/js/bootstrap-select.min.js HTTP/1.1" 304 0
+"GET /static/vendor/jquery.cookie/jquery.cookie.js HTTP/1.1" 304 0
+"GET /static/vendor/bootstrap-select/js/bootstrap-select.min.js HTTP/1.1" 304 0
+"GET /static/js/front.js HTTP/1.1" 304 0
+"GET /static/js/front.js HTTP/1.1" 304 0
+"GET /static/vendor/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 140930
+"GET /static/vendor/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 140930
+"GET /static/vendor/jquery/jquery.min.js HTTP/1.1" 304 0
+"GET /static/vendor/jquery/jquery.min.js HTTP/1.1" 304 0
+"GET /static/vendor/owl.carousel/owl.carousel.min.js HTTP/1.1" 304 0
+"GET /static/vendor/owl.carousel/owl.carousel.min.js HTTP/1.1" 304 0
+"GET /static/vendor/popper.js/umd/popper.min.js HTTP/1.1" 304 0
+"GET /static/vendor/popper.js/umd/popper.min.js HTTP/1.1" 304 0
+"GET /static/css/style.css HTTP/1.1" 200 1359
+"GET /static/css/style.css HTTP/1.1" 200 1359
+"GET /static/img/logo-small.png HTTP/1.1" 200 5152
+"GET /static/img/logo-small.png HTTP/1.1" 200 5152
+"GET /static/img/dance3.jpg HTTP/1.1" 200 79106
+"GET /static/img/dance3.jpg HTTP/1.1" 200 79106
+"GET /static/img/warli1.jpg HTTP/1.1" 304 0
+"GET /static/img/warli1.jpg HTTP/1.1" 304 0
+"GET /static/img/sponsors.jpg HTTP/1.1" 304 0
+"GET /static/img/sponsors.jpg HTTP/1.1" 304 0
+"GET / HTTP/1.1" 200 18582
+"GET / HTTP/1.1" 200 18582
+"GET /static/img/startup.jpg HTTP/1.1" 404 1669
+"GET /static/img/startup.jpg HTTP/1.1" 404 1669
+"GET /aud_exhibit/ HTTP/1.1" 200 5513
+"GET /aud_exhibit/ HTTP/1.1" 200 5513
+"GET /static/css/custom.css HTTP/1.1" 200 25
+"GET /static/css/custom.css HTTP/1.1" 200 25
+"GET /static/img/logo-small.png HTTP/1.1" 200 5152
+"GET /static/img/logo-small.png HTTP/1.1" 200 5152
+"GET /static/css/custom.css HTTP/1.1" 500 59
+"GET /static/css/custom.css HTTP/1.1" 500 59
+"GET /aud_exhibit/ HTTP/1.1" 200 7626
+"GET /aud_exhibit/ HTTP/1.1" 200 7626
+"GET /static/js/script.js HTTP/1.1" 304 0
+"GET /static/js/script.js HTTP/1.1" 304 0
+"GET /static/vendor/font-awesome/css/font-awesome.min.css HTTP/1.1" 304 0
+"GET /static/vendor/font-awesome/css/font-awesome.min.css HTTP/1.1" 304 0
+"GET /static/vendor/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+"GET /static/vendor/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+"GET /static/vendor/popper.js/umd/popper.min.js HTTP/1.1" 304 0
+"GET /static/vendor/popper.js/umd/popper.min.js HTTP/1.1" 304 0
+"GET /static/vendor/jquery/jquery.min.js HTTP/1.1" 304 0
+"GET /static/vendor/jquery/jquery.min.js HTTP/1.1" 304 0
+"GET /static/vendor/jquery.cookie/jquery.cookie.js HTTP/1.1" 304 0
+"GET /static/vendor/jquery.cookie/jquery.cookie.js HTTP/1.1" 304 0
+"GET /static/vendor/owl.carousel/assets/owl.carousel.css HTTP/1.1" 304 0
+"GET /static/vendor/owl.carousel/assets/owl.carousel.css HTTP/1.1" 304 0
+"GET /static/vendor/owl.carousel/owl.carousel.min.js HTTP/1.1" 304 0
+"GET /static/vendor/owl.carousel/owl.carousel.min.js HTTP/1.1" 304 0
+"GET /static/css/style.default.css HTTP/1.1" 304 0
+"GET /static/css/style.default.css HTTP/1.1" 304 0
+"GET /static/vendor/bootstrap-select/js/bootstrap-select.min.js HTTP/1.1" 304 0
+"GET /static/vendor/bootstrap-select/js/bootstrap-select.min.js HTTP/1.1" 304 0
+"GET /static/css/style.css HTTP/1.1" 200 1359
+"GET /static/css/style.css HTTP/1.1" 200 1359
+"GET /static/vendor/owl.carousel/assets/owl.theme.default.css HTTP/1.1" 304 0
+"GET /static/vendor/owl.carousel/assets/owl.theme.default.css HTTP/1.1" 304 0
+"GET /static/js/front.js HTTP/1.1" 304 0
+"GET /static/js/front.js HTTP/1.1" 304 0
+"GET /static/css/custom.css HTTP/1.1" 304 0
+"GET /static/css/custom.css HTTP/1.1" 304 0
+"GET /static/img/logo-small.png HTTP/1.1" 200 5152
+"GET /static/img/logo-small.png HTTP/1.1" 200 5152
+"GET /static/img/dance3.jpg HTTP/1.1" 304 0
+"GET /static/img/dance3.jpg HTTP/1.1" 304 0
+"GET /static/img/warli1.jpg HTTP/1.1" 304 0
+"GET /static/img/warli1.jpg HTTP/1.1" 304 0
+"GET /static/img/sponsors.jpg HTTP/1.1" 304 0
+"GET /static/img/sponsors.jpg HTTP/1.1" 304 0
+"GET /aud_exhibit/ HTTP/1.1" 200 7617
+"GET /aud_exhibit/ HTTP/1.1" 200 7617
+"GET /static/js/script.js HTTP/1.1" 304 0
+"GET /static/js/script.js HTTP/1.1" 304 0
+"GET /static/vendor/jquery/jquery.min.js HTTP/1.1" 304 0
+"GET /static/vendor/jquery/jquery.min.js HTTP/1.1" 304 0
+"GET /static/vendor/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+"GET /static/vendor/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+"GET /static/vendor/bootstrap-select/js/bootstrap-select.min.js HTTP/1.1" 304 0
+"GET /static/vendor/bootstrap-select/js/bootstrap-select.min.js HTTP/1.1" 304 0
+"GET /static/vendor/popper.js/umd/popper.min.js HTTP/1.1" 304 0
+"GET /static/vendor/popper.js/umd/popper.min.js HTTP/1.1" 304 0
+"GET /static/vendor/owl.carousel/owl.carousel.min.js HTTP/1.1" 304 0
+"GET /static/vendor/owl.carousel/owl.carousel.min.js HTTP/1.1" 304 0
+"GET /static/js/front.js HTTP/1.1" 304 0
+"GET /static/js/front.js HTTP/1.1" 304 0
+"GET /static/vendor/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+"GET /static/vendor/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+"GET /static/vendor/owl.carousel/assets/owl.theme.default.css HTTP/1.1" 304 0
+"GET /static/vendor/owl.carousel/assets/owl.theme.default.css HTTP/1.1" 304 0
+"GET /static/vendor/jquery.cookie/jquery.cookie.js HTTP/1.1" 304 0
+"GET /static/vendor/jquery.cookie/jquery.cookie.js HTTP/1.1" 304 0
+"GET /static/vendor/owl.carousel/assets/owl.carousel.css HTTP/1.1" 304 0
+"GET /static/vendor/owl.carousel/assets/owl.carousel.css HTTP/1.1" 304 0
+"GET /static/vendor/font-awesome/css/font-awesome.min.css HTTP/1.1" 304 0
+"GET /static/vendor/font-awesome/css/font-awesome.min.css HTTP/1.1" 304 0
+"GET /static/css/custom.css HTTP/1.1" 304 0
+"GET /static/css/custom.css HTTP/1.1" 304 0
+"GET /static/css/style.css HTTP/1.1" 304 0
+"GET /static/css/style.css HTTP/1.1" 304 0
+"GET /static/css/style.default.css HTTP/1.1" 200 57334
+"GET /static/css/style.default.css HTTP/1.1" 200 57334
+"GET /static/img/logo-small.png HTTP/1.1" 200 5152
+"GET /static/img/logo-small.png HTTP/1.1" 200 5152
+"GET /static/img/dance3.jpg HTTP/1.1" 200 79106
+"GET /static/img/dance3.jpg HTTP/1.1" 200 79106
+"GET /static/img/warli1.jpg HTTP/1.1" 200 113921
+"GET /static/img/warli1.jpg HTTP/1.1" 200 113921
+"GET /static/img/sponsors.jpg HTTP/1.1" 200 147112
+"GET /static/img/sponsors.jpg HTTP/1.1" 200 147112
+"GET /aud_exhibit/ HTTP/1.1" 200 7617
+"GET /aud_exhibit/ HTTP/1.1" 200 7617
+"GET /static/js/script.js HTTP/1.1" 304 0
+"GET /static/js/script.js HTTP/1.1" 304 0
+"GET /static/vendor/jquery/jquery.min.js HTTP/1.1" 304 0
+"GET /static/vendor/jquery/jquery.min.js HTTP/1.1" 304 0
+"GET /static/vendor/jquery.cookie/jquery.cookie.js HTTP/1.1" 304 0
+"GET /static/vendor/jquery.cookie/jquery.cookie.js HTTP/1.1" 304 0
+"GET /static/vendor/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+"GET /static/vendor/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+"GET /static/vendor/popper.js/umd/popper.min.js HTTP/1.1" 304 0
+"GET /static/vendor/popper.js/umd/popper.min.js HTTP/1.1" 304 0
+"GET /static/vendor/bootstrap-select/js/bootstrap-select.min.js HTTP/1.1" 304 0
+"GET /static/vendor/bootstrap-select/js/bootstrap-select.min.js HTTP/1.1" 304 0
+"GET /static/js/front.js HTTP/1.1" 304 0
+"GET /static/js/front.js HTTP/1.1" 304 0
+"GET /static/vendor/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+"GET /static/vendor/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+"GET /static/vendor/font-awesome/css/font-awesome.min.css HTTP/1.1" 304 0
+"GET /static/vendor/font-awesome/css/font-awesome.min.css HTTP/1.1" 304 0
+"GET /static/vendor/owl.carousel/assets/owl.carousel.css HTTP/1.1" 304 0
+"GET /static/vendor/owl.carousel/assets/owl.carousel.css HTTP/1.1" 304 0
+"GET /static/css/style.default.css HTTP/1.1" 304 0
+"GET /static/css/style.default.css HTTP/1.1" 304 0
+"GET /static/css/style.css HTTP/1.1" 304 0
+"GET /static/css/style.css HTTP/1.1" 304 0
+"GET /static/css/custom.css HTTP/1.1" 304 0
+"GET /static/css/custom.css HTTP/1.1" 304 0
+"GET /static/vendor/owl.carousel/owl.carousel.min.js HTTP/1.1" 304 0
+"GET /static/vendor/owl.carousel/owl.carousel.min.js HTTP/1.1" 304 0
+"GET /static/vendor/owl.carousel/assets/owl.theme.default.css HTTP/1.1" 304 0
+"GET /static/vendor/owl.carousel/assets/owl.theme.default.css HTTP/1.1" 304 0
+"GET /static/img/logo-small.png HTTP/1.1" 304 0
+"GET /static/img/logo-small.png HTTP/1.1" 304 0
+"GET /static/img/warli1.jpg HTTP/1.1" 304 0
+"GET /static/img/sponsors.jpg HTTP/1.1" 200 147112
+"GET /static/img/warli1.jpg HTTP/1.1" 304 0
+"GET /static/img/sponsors.jpg HTTP/1.1" 200 147112
+"GET /static/img/dance3.jpg HTTP/1.1" 200 79106
+"GET /static/img/dance3.jpg HTTP/1.1" 200 79106
+Not Found: /aud_exhibit/favicon.png
+Not Found: /aud_exhibit/favicon.png
+"GET /aud_exhibit/favicon.png HTTP/1.1" 404 6608
+"GET /aud_exhibit/favicon.png HTTP/1.1" 404 6608
+"GET /aud_exhibit/ HTTP/1.1" 200 7717
+"GET /aud_exhibit/ HTTP/1.1" 200 7717
+"GET /static/js/script.js HTTP/1.1" 304 0
+"GET /static/js/script.js HTTP/1.1" 304 0
+"GET /static/vendor/popper.js/umd/popper.min.js HTTP/1.1" 304 0
+"GET /static/vendor/popper.js/umd/popper.min.js HTTP/1.1" 304 0
+"GET /static/vendor/jquery.cookie/jquery.cookie.js HTTP/1.1" 304 0
+"GET /static/vendor/jquery.cookie/jquery.cookie.js HTTP/1.1" 304 0
+"GET /static/vendor/bootstrap-select/js/bootstrap-select.min.js HTTP/1.1" 304 0
+"GET /static/vendor/bootstrap-select/js/bootstrap-select.min.js HTTP/1.1" 304 0
+"GET /static/vendor/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+"GET /static/vendor/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+"GET /static/vendor/jquery/jquery.min.js HTTP/1.1" 304 0
+"GET /static/vendor/jquery/jquery.min.js HTTP/1.1" 304 0
+"GET /static/vendor/owl.carousel/owl.carousel.min.js HTTP/1.1" 304 0
+"GET /static/vendor/owl.carousel/owl.carousel.min.js HTTP/1.1" 304 0
+"GET /static/js/front.js HTTP/1.1" 304 0
+"GET /static/js/front.js HTTP/1.1" 304 0
+"GET /static/css/custom.css HTTP/1.1" 304 0
+"GET /static/css/custom.css HTTP/1.1" 304 0
+"GET /static/css/style.css HTTP/1.1" 304 0
+"GET /static/css/style.css HTTP/1.1" 304 0
+"GET /static/vendor/owl.carousel/assets/owl.theme.default.css HTTP/1.1" 304 0
+"GET /static/vendor/owl.carousel/assets/owl.theme.default.css HTTP/1.1" 304 0
+"GET /static/vendor/owl.carousel/assets/owl.carousel.css HTTP/1.1" 304 0
+"GET /static/vendor/owl.carousel/assets/owl.carousel.css HTTP/1.1" 304 0
+"GET /static/vendor/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+"GET /static/vendor/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+"GET /static/css/style.default.css HTTP/1.1" 304 0
+"GET /static/css/style.default.css HTTP/1.1" 304 0
+"GET /static/vendor/font-awesome/css/font-awesome.min.css HTTP/1.1" 304 0
+"GET /static/vendor/font-awesome/css/font-awesome.min.css HTTP/1.1" 304 0
+"GET /static/img/logo-small.png HTTP/1.1" 200 5152
+"GET /static/img/logo-small.png HTTP/1.1" 200 5152
+"GET /static/img/dance3.jpg HTTP/1.1" 200 79106
+"GET /static/img/dance3.jpg HTTP/1.1" 200 79106
+"GET /static/img/warli1.jpg HTTP/1.1" 200 113921
+"GET /static/img/warli1.jpg HTTP/1.1" 200 113921
+"GET /static/img/sponsors.jpg HTTP/1.1" 200 147112
+"GET /static/img/sponsors.jpg HTTP/1.1" 200 147112
+"GET /aud_exhibit/ HTTP/1.1" 200 7717
+"GET /aud_exhibit/ HTTP/1.1" 200 7717
+"GET /static/vendor/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+"GET /static/vendor/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 0
+"GET /static/vendor/font-awesome/css/font-awesome.min.css HTTP/1.1" 304 0
+"GET /static/vendor/font-awesome/css/font-awesome.min.css HTTP/1.1" 304 0
+"GET /static/css/style.css HTTP/1.1" 200 1359
+"GET /static/css/style.css HTTP/1.1" 200 1359
+"GET /static/vendor/jquery/jquery.min.js HTTP/1.1" 304 0
+"GET /static/vendor/jquery/jquery.min.js HTTP/1.1" 304 0
+"GET /static/vendor/owl.carousel/assets/owl.theme.default.css HTTP/1.1" 304 0
+"GET /static/vendor/owl.carousel/assets/owl.theme.default.css HTTP/1.1" 304 0
+"GET /static/vendor/owl.carousel/assets/owl.carousel.css HTTP/1.1" 304 0
+"GET /static/vendor/owl.carousel/assets/owl.carousel.css HTTP/1.1" 304 0
+"GET /static/css/style.default.css HTTP/1.1" 304 0
+"GET /static/css/style.default.css HTTP/1.1" 304 0
+"GET /static/js/script.js HTTP/1.1" 304 0
+"GET /static/js/script.js HTTP/1.1" 304 0
+"GET /static/css/custom.css HTTP/1.1" 304 0
+"GET /static/css/custom.css HTTP/1.1" 304 0
+"GET /static/vendor/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+"GET /static/vendor/bootstrap/js/bootstrap.min.js HTTP/1.1" 304 0
+"GET /static/vendor/owl.carousel/owl.carousel.min.js HTTP/1.1" 304 0
+"GET /static/vendor/owl.carousel/owl.carousel.min.js HTTP/1.1" 304 0
+"GET /static/vendor/popper.js/umd/popper.min.js HTTP/1.1" 304 0
+"GET /static/vendor/popper.js/umd/popper.min.js HTTP/1.1" 304 0
+"GET /static/vendor/bootstrap-select/js/bootstrap-select.min.js HTTP/1.1" 304 0
+"GET /static/vendor/bootstrap-select/js/bootstrap-select.min.js HTTP/1.1" 304 0
+"GET /static/vendor/jquery.cookie/jquery.cookie.js HTTP/1.1" 304 0
+"GET /static/vendor/jquery.cookie/jquery.cookie.js HTTP/1.1" 304 0
+"GET /static/js/front.js HTTP/1.1" 304 0
+"GET /static/js/front.js HTTP/1.1" 304 0
+"GET /static/img/logo-small.png HTTP/1.1" 304 0
+"GET /static/img/logo-small.png HTTP/1.1" 304 0
+"GET /static/img/dance3.jpg HTTP/1.1" 304 0
+"GET /static/img/dance3.jpg HTTP/1.1" 304 0
+"GET /static/img/warli1.jpg HTTP/1.1" 304 0
+"GET /static/img/warli1.jpg HTTP/1.1" 304 0
+"GET /static/img/sponsors.jpg HTTP/1.1" 304 0
+"GET /static/img/sponsors.jpg HTTP/1.1" 304 0
+"GET /aud_exhibit/ HTTP/1.1" 200 3070
+"GET /aud_exhibit/ HTTP/1.1" 200 3070
+"GET /static/js/script.js HTTP/1.1" 304 0
+"GET /static/js/script.js HTTP/1.1" 304 0
+"GET /static/css/style.css HTTP/1.1" 200 1359
+"GET /static/css/style.css HTTP/1.1" 200 1359
+"GET /static/img/dance3.jpg HTTP/1.1" 200 79106
+"GET /static/img/dance3.jpg HTTP/1.1" 200 79106
+"GET /static/img/warli1.jpg HTTP/1.1" 304 0
+"GET /static/img/warli1.jpg HTTP/1.1" 304 0
+"GET /static/img/sponsors.jpg HTTP/1.1" 304 0
+"GET /static/img/sponsors.jpg HTTP/1.1" 304 0
+"GET /aud_exhibit/ HTTP/1.1" 200 3079
+"GET /aud_exhibit/ HTTP/1.1" 200 3079
+"GET /static/css/style.css HTTP/1.1" 304 0
+"GET /static/css/style.css HTTP/1.1" 304 0
+"GET /static/js/script.js HTTP/1.1" 304 0
+"GET /static/js/script.js HTTP/1.1" 304 0
+"GET /static/img/dance3.jpg HTTP/1.1" 200 79106
+"GET /static/img/dance3.jpg HTTP/1.1" 200 79106
+"GET /static/img/warli1.jpg HTTP/1.1" 304 0
+"GET /static/img/warli1.jpg HTTP/1.1" 304 0
+"GET /static/img/sponsors.jpg HTTP/1.1" 304 0
+"GET /static/img/sponsors.jpg HTTP/1.1" 304 0
+"GET /aud_exhibit/ HTTP/1.1" 200 3077
+"GET /aud_exhibit/ HTTP/1.1" 200 3077
+"GET /static/js/script.js HTTP/1.1" 304 0
+"GET /static/js/script.js HTTP/1.1" 304 0
+"GET /static/css/style.css HTTP/1.1" 200 1359
+"GET /static/css/style.css HTTP/1.1" 200 1359
+"GET /static/img/dance3.jpg HTTP/1.1" 200 79106
+"GET /static/img/dance3.jpg HTTP/1.1" 200 79106
+"GET /static/img/warli1.jpg HTTP/1.1" 304 0
+"GET /static/img/warli1.jpg HTTP/1.1" 304 0
+"GET /static/img/dance3.jpg HTTP/1.1" 200 8192
+"GET /static/img/dance3.jpg HTTP/1.1" 200 8192
+"GET /aud_exhibit/ HTTP/1.1" 200 3088
+"GET /aud_exhibit/ HTTP/1.1" 200 3088
+"GET /static/css/style.css HTTP/1.1" 304 0
+"GET /static/css/style.css HTTP/1.1" 304 0
+"GET /static/js/script.js HTTP/1.1" 304 0
+"GET /static/js/script.js HTTP/1.1" 304 0
+"GET /static/img/dance3.jpg HTTP/1.1" 304 0
+"GET /static/img/dance3.jpg HTTP/1.1" 304 0
+"GET /static/img/warli1.jpg HTTP/1.1" 304 0
+"GET /static/img/warli1.jpg HTTP/1.1" 304 0
+"GET /static/img/sponsors.jpg HTTP/1.1" 304 0
+"GET /static/img/sponsors.jpg HTTP/1.1" 304 0
+"GET / HTTP/1.1" 200 18582
+"GET / HTTP/1.1" 200 18582
+"GET /static/vendor/owl.carousel/assets/owl.carousel.css HTTP/1.1" 200 4744
+"GET /static/vendor/owl.carousel/assets/owl.carousel.css HTTP/1.1" 200 4744
+"GET /static/vendor/owl.carousel/assets/owl.theme.default.css HTTP/1.1" 200 1380
+"GET /static/vendor/owl.carousel/assets/owl.theme.default.css HTTP/1.1" 200 1380
+"GET /static/img/startup.jpg HTTP/1.1" 404 1669
+"GET /static/img/startup.jpg HTTP/1.1" 404 1669
+"GET /aud_exhibit/ HTTP/1.1" 200 3088
+"GET /aud_exhibit/ HTTP/1.1" 200 3088
+"GET /static/css/style.css HTTP/1.1" 304 0
+"GET /static/css/style.css HTTP/1.1" 304 0
+"GET /static/img/sponsors.jpg HTTP/1.1" 200 8192
+"GET /static/img/sponsors.jpg HTTP/1.1" 200 8192
+"GET / HTTP/1.1" 200 18582
+"GET / HTTP/1.1" 200 18582
+"GET /static/img/startup.jpg HTTP/1.1" 404 1669
+"GET /static/img/startup.jpg HTTP/1.1" 404 1669
+"GET /aud_exhibit/ HTTP/1.1" 200 3083
+"GET /aud_exhibit/ HTTP/1.1" 200 3083
+"GET /static/css/style.css HTTP/1.1" 200 1359
+"GET /static/css/style.css HTTP/1.1" 200 1359
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 6572
+"GET /favicon.ico HTTP/1.1" 404 6572
+"GET /static/img/warli1.jpg HTTP/1.1" 200 113921
+"GET /static/img/warli1.jpg HTTP/1.1" 200 113921
+"GET /static/img/sponsors.jpg HTTP/1.1" 200 147112
+"GET /static/img/sponsors.jpg HTTP/1.1" 200 147112
+"GET /aud_exhibit/ HTTP/1.1" 200 3083
+"GET /aud_exhibit/ HTTP/1.1" 200 3083
+"GET /static/css/style.css HTTP/1.1" 304 0
+"GET /static/css/style.css HTTP/1.1" 304 0
+"GET /static/js/script.js HTTP/1.1" 304 0
+"GET /static/js/script.js HTTP/1.1" 304 0
+"GET /static/img/dance3.jpg HTTP/1.1" 200 79106
+"GET /static/img/dance3.jpg HTTP/1.1" 200 79106
+"GET /static/img/warli1.jpg HTTP/1.1" 304 0
+"GET /static/img/warli1.jpg HTTP/1.1" 304 0
+"GET /static/img/sponsors.jpg HTTP/1.1" 304 0
+"GET /static/img/sponsors.jpg HTTP/1.1" 304 0
+"GET /aud_exhibit/ HTTP/1.1" 200 3083
+"GET /aud_exhibit/ HTTP/1.1" 200 3083
+"GET /static/js/script.js HTTP/1.1" 304 0
+"GET /static/js/script.js HTTP/1.1" 304 0
+"GET /static/css/style.css HTTP/1.1" 304 0
+"GET /static/css/style.css HTTP/1.1" 304 0
+"GET /static/img/dance3.jpg HTTP/1.1" 200 79106
+"GET /static/img/dance3.jpg HTTP/1.1" 200 79106
+"GET /static/img/warli1.jpg HTTP/1.1" 304 0
+"GET /static/img/warli1.jpg HTTP/1.1" 304 0
+"GET /static/img/sponsors.jpg HTTP/1.1" 304 0
+"GET /static/img/sponsors.jpg HTTP/1.1" 304 0
+"GET / HTTP/1.1" 200 18582
+"GET / HTTP/1.1" 200 18582
+"GET /static/css/custom.css HTTP/1.1" 200 25
+"GET /static/css/custom.css HTTP/1.1" 200 25
+"GET /static/img/startup.jpg HTTP/1.1" 404 1669
+"GET /static/img/startup.jpg HTTP/1.1" 404 1669
+"GET /aud_exhibit/ HTTP/1.1" 200 3091
+"GET /aud_exhibit/ HTTP/1.1" 200 3091
+"GET /static/img/dance3.jpg HTTP/1.1" 200 8192
+"GET /static/img/dance3.jpg HTTP/1.1" 200 8192
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 6572
+"GET /favicon.ico HTTP/1.1" 404 6572
+"GET / HTTP/1.1" 200 18582
+"GET / HTTP/1.1" 200 18582
+"GET /static/img/startup.jpg HTTP/1.1" 404 1669
+"GET /static/img/startup.jpg HTTP/1.1" 404 1669
+Not Found: /favicon.png
+Not Found: /favicon.png
+"GET /favicon.png HTTP/1.1" 404 6572
+"GET /favicon.png HTTP/1.1" 404 6572
+"GET /aud_exhibit/ HTTP/1.1" 200 3086
+"GET /aud_exhibit/ HTTP/1.1" 200 3086
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 6572
+"GET /favicon.ico HTTP/1.1" 404 6572
+"GET /aud_exhibit/ HTTP/1.1" 200 3105
+"GET /aud_exhibit/ HTTP/1.1" 200 3105
+"GET /static/js/script.js HTTP/1.1" 304 0
+"GET /static/js/script.js HTTP/1.1" 304 0
+"GET /static/css/style.css HTTP/1.1" 304 0
+"GET /static/css/style.css HTTP/1.1" 304 0
+"GET /static/img/dance3.jpg HTTP/1.1" 200 79106
+"GET /static/img/dance3.jpg HTTP/1.1" 200 79106
+"GET /static/img/warli1.jpg HTTP/1.1" 304 0
+"GET /static/img/warli1.jpg HTTP/1.1" 304 0
+"GET /static/img/sponsors.jpg HTTP/1.1" 304 0
+"GET /static/img/sponsors.jpg HTTP/1.1" 304 0
+Not Found: /aud_exhibit/home1.html
+Not Found: /aud_exhibit/home1.html
+"GET /aud_exhibit/home1.html HTTP/1.1" 404 6605
+"GET /aud_exhibit/home1.html HTTP/1.1" 404 6605
+"GET / HTTP/1.1" 200 18582
+"GET / HTTP/1.1" 200 18582
+"GET /static/vendor/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 140930
+"GET /static/vendor/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 140930
+"GET /static/img/startup.jpg HTTP/1.1" 404 1669
+"GET /static/img/startup.jpg HTTP/1.1" 404 1669
+"GET /employee/register HTTP/1.1" 200 9742
+"GET /employee/register HTTP/1.1" 200 9742
+"GET /static/vendor/owl.carousel/assets/owl.carousel.css HTTP/1.1" 200 4744
+"GET /static/vendor/owl.carousel/assets/owl.carousel.css HTTP/1.1" 200 4744
+"GET /static/vendor/owl.carousel/assets/owl.theme.default.css HTTP/1.1" 200 1380
+"GET /static/vendor/owl.carousel/assets/owl.theme.default.css HTTP/1.1" 200 1380
+Not Found: /employee/favicon.png
+Not Found: /employee/favicon.png
+"GET /employee/favicon.png HTTP/1.1" 404 6599
+"GET /employee/favicon.png HTTP/1.1" 404 6599
+"GET / HTTP/1.1" 200 18582
+"GET / HTTP/1.1" 200 18582
+"GET /static/img/startup.jpg HTTP/1.1" 404 1669
+"GET /static/img/startup.jpg HTTP/1.1" 404 1669
+"GET /login HTTP/1.1" 200 6960
+"GET /login HTTP/1.1" 200 6960
+Internal Server Error: /login
+Traceback (most recent call last):
+  File "/home/dell/anaconda3/lib/python3.6/site-packages/django/db/backends/utils.py", line 85, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/dell/anaconda3/lib/python3.6/site-packages/django/db/backends/sqlite3/base.py", line 303, in execute
+    return Database.Cursor.execute(self, query, params)
+sqlite3.OperationalError: no such column: accounts_user.username
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/dell/anaconda3/lib/python3.6/site-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/home/dell/anaconda3/lib/python3.6/site-packages/django/core/handlers/base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/dell/anaconda3/lib/python3.6/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/dell/anaconda3/lib/python3.6/site-packages/django/views/generic/base.py", line 69, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/dell/Documents/Vyaspeeth/accounts/views.py", line 82, in dispatch
+    return super().dispatch(self.request, *args, **kwargs)
+  File "/home/dell/anaconda3/lib/python3.6/site-packages/django/views/generic/base.py", line 89, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/dell/anaconda3/lib/python3.6/site-packages/django/views/generic/edit.py", line 141, in post
+    if form.is_valid():
+  File "/home/dell/anaconda3/lib/python3.6/site-packages/django/forms/forms.py", line 179, in is_valid
+    return self.is_bound and not self.errors
+  File "/home/dell/anaconda3/lib/python3.6/site-packages/django/forms/forms.py", line 174, in errors
+    self.full_clean()
+  File "/home/dell/anaconda3/lib/python3.6/site-packages/django/forms/forms.py", line 377, in full_clean
+    self._clean_form()
+  File "/home/dell/anaconda3/lib/python3.6/site-packages/django/forms/forms.py", line 404, in _clean_form
+    cleaned_data = self.clean()
+  File "/home/dell/Documents/Vyaspeeth/accounts/forms.py", line 157, in clean
+    self.user = authenticate(email=email, password=password)
+  File "/home/dell/anaconda3/lib/python3.6/site-packages/django/contrib/auth/__init__.py", line 70, in authenticate
+    user = _authenticate_with_backend(backend, backend_path, request, credentials)
+  File "/home/dell/anaconda3/lib/python3.6/site-packages/django/contrib/auth/__init__.py", line 116, in _authenticate_with_backend
+    return backend.authenticate(*args, **credentials)
+  File "/home/dell/anaconda3/lib/python3.6/site-packages/django/contrib/auth/backends.py", line 16, in authenticate
+    user = UserModel._default_manager.get_by_natural_key(username)
+  File "/home/dell/anaconda3/lib/python3.6/site-packages/django/contrib/auth/base_user.py", line 44, in get_by_natural_key
+    return self.get(**{self.model.USERNAME_FIELD: username})
+  File "/home/dell/anaconda3/lib/python3.6/site-packages/django/db/models/manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/dell/anaconda3/lib/python3.6/site-packages/django/db/models/query.py", line 397, in get
+    num = len(clone)
+  File "/home/dell/anaconda3/lib/python3.6/site-packages/django/db/models/query.py", line 254, in __len__
+    self._fetch_all()
+  File "/home/dell/anaconda3/lib/python3.6/site-packages/django/db/models/query.py", line 1179, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "/home/dell/anaconda3/lib/python3.6/site-packages/django/db/models/query.py", line 53, in __iter__
+    results = compiler.execute_sql(chunked_fetch=self.chunked_fetch, chunk_size=self.chunk_size)
+  File "/home/dell/anaconda3/lib/python3.6/site-packages/django/db/models/sql/compiler.py", line 1066, in execute_sql
+    cursor.execute(sql, params)
+  File "/home/dell/anaconda3/lib/python3.6/site-packages/django/db/backends/utils.py", line 100, in execute
+    return super().execute(sql, params)
+  File "/home/dell/anaconda3/lib/python3.6/site-packages/django/db/backends/utils.py", line 68, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "/home/dell/anaconda3/lib/python3.6/site-packages/django/db/backends/utils.py", line 77, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "/home/dell/anaconda3/lib/python3.6/site-packages/django/db/backends/utils.py", line 85, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/dell/anaconda3/lib/python3.6/site-packages/django/db/utils.py", line 89, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/home/dell/anaconda3/lib/python3.6/site-packages/django/db/backends/utils.py", line 85, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/dell/anaconda3/lib/python3.6/site-packages/django/db/backends/sqlite3/base.py", line 303, in execute
+    return Database.Cursor.execute(self, query, params)
+django.db.utils.OperationalError: no such column: accounts_user.username
+Internal Server Error: /login
+Traceback (most recent call last):
+  File "/home/dell/anaconda3/lib/python3.6/site-packages/django/db/backends/utils.py", line 85, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/dell/anaconda3/lib/python3.6/site-packages/django/db/backends/sqlite3/base.py", line 303, in execute
+    return Database.Cursor.execute(self, query, params)
+sqlite3.OperationalError: no such column: accounts_user.username
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/dell/anaconda3/lib/python3.6/site-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/home/dell/anaconda3/lib/python3.6/site-packages/django/core/handlers/base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/dell/anaconda3/lib/python3.6/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/dell/anaconda3/lib/python3.6/site-packages/django/views/generic/base.py", line 69, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/dell/Documents/Vyaspeeth/accounts/views.py", line 82, in dispatch
+    return super().dispatch(self.request, *args, **kwargs)
+  File "/home/dell/anaconda3/lib/python3.6/site-packages/django/views/generic/base.py", line 89, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/dell/anaconda3/lib/python3.6/site-packages/django/views/generic/edit.py", line 141, in post
+    if form.is_valid():
+  File "/home/dell/anaconda3/lib/python3.6/site-packages/django/forms/forms.py", line 179, in is_valid
+    return self.is_bound and not self.errors
+  File "/home/dell/anaconda3/lib/python3.6/site-packages/django/forms/forms.py", line 174, in errors
+    self.full_clean()
+  File "/home/dell/anaconda3/lib/python3.6/site-packages/django/forms/forms.py", line 377, in full_clean
+    self._clean_form()
+  File "/home/dell/anaconda3/lib/python3.6/site-packages/django/forms/forms.py", line 404, in _clean_form
+    cleaned_data = self.clean()
+  File "/home/dell/Documents/Vyaspeeth/accounts/forms.py", line 157, in clean
+    self.user = authenticate(email=email, password=password)
+  File "/home/dell/anaconda3/lib/python3.6/site-packages/django/contrib/auth/__init__.py", line 70, in authenticate
+    user = _authenticate_with_backend(backend, backend_path, request, credentials)
+  File "/home/dell/anaconda3/lib/python3.6/site-packages/django/contrib/auth/__init__.py", line 116, in _authenticate_with_backend
+    return backend.authenticate(*args, **credentials)
+  File "/home/dell/anaconda3/lib/python3.6/site-packages/django/contrib/auth/backends.py", line 16, in authenticate
+    user = UserModel._default_manager.get_by_natural_key(username)
+  File "/home/dell/anaconda3/lib/python3.6/site-packages/django/contrib/auth/base_user.py", line 44, in get_by_natural_key
+    return self.get(**{self.model.USERNAME_FIELD: username})
+  File "/home/dell/anaconda3/lib/python3.6/site-packages/django/db/models/manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/dell/anaconda3/lib/python3.6/site-packages/django/db/models/query.py", line 397, in get
+    num = len(clone)
+  File "/home/dell/anaconda3/lib/python3.6/site-packages/django/db/models/query.py", line 254, in __len__
+    self._fetch_all()
+  File "/home/dell/anaconda3/lib/python3.6/site-packages/django/db/models/query.py", line 1179, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "/home/dell/anaconda3/lib/python3.6/site-packages/django/db/models/query.py", line 53, in __iter__
+    results = compiler.execute_sql(chunked_fetch=self.chunked_fetch, chunk_size=self.chunk_size)
+  File "/home/dell/anaconda3/lib/python3.6/site-packages/django/db/models/sql/compiler.py", line 1066, in execute_sql
+    cursor.execute(sql, params)
+  File "/home/dell/anaconda3/lib/python3.6/site-packages/django/db/backends/utils.py", line 100, in execute
+    return super().execute(sql, params)
+  File "/home/dell/anaconda3/lib/python3.6/site-packages/django/db/backends/utils.py", line 68, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "/home/dell/anaconda3/lib/python3.6/site-packages/django/db/backends/utils.py", line 77, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "/home/dell/anaconda3/lib/python3.6/site-packages/django/db/backends/utils.py", line 85, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/dell/anaconda3/lib/python3.6/site-packages/django/db/utils.py", line 89, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/home/dell/anaconda3/lib/python3.6/site-packages/django/db/backends/utils.py", line 85, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/dell/anaconda3/lib/python3.6/site-packages/django/db/backends/sqlite3/base.py", line 303, in execute
+    return Database.Cursor.execute(self, query, params)
+django.db.utils.OperationalError: no such column: accounts_user.username
+"POST /login HTTP/1.1" 500 203873
+"POST /login HTTP/1.1" 500 203873
+"GET / HTTP/1.1" 200 18582
+"GET / HTTP/1.1" 200 18582
+"GET /static/img/startup.jpg HTTP/1.1" 404 1669
+"GET /static/img/startup.jpg HTTP/1.1" 404 1669
+Not Found: /favicon.png
+Not Found: /favicon.png
+"GET /favicon.png HTTP/1.1" 404 6572
+"GET /favicon.png HTTP/1.1" 404 6572
+"GET /login HTTP/1.1" 200 6960
+"GET /login HTTP/1.1" 200 6960
+Not Found: /favicon.png
+Not Found: /favicon.png
+"GET /favicon.png HTTP/1.1" 404 6572
+"GET /favicon.png HTTP/1.1" 404 6572
+"POST /login HTTP/1.1" 302 0
+"POST /login HTTP/1.1" 302 0
+"GET / HTTP/1.1" 200 19084
+"GET / HTTP/1.1" 200 19084
+"GET /static/img/startup.jpg HTTP/1.1" 404 1669
+"GET /static/img/startup.jpg HTTP/1.1" 404 1669
+"GET /employer/dashboard/ HTTP/1.1" 200 8719
+"GET /employer/dashboard/ HTTP/1.1" 200 8719
+Not Found: /employer/dashboard/favicon.png
+Not Found: /employer/dashboard/favicon.png
+"GET /employer/dashboard/favicon.png HTTP/1.1" 404 7509
+"GET /employer/dashboard/favicon.png HTTP/1.1" 404 7509
+"GET /logout HTTP/1.1" 302 0
+"GET /logout HTTP/1.1" 302 0
+"GET /login HTTP/1.1" 200 7419
+"GET /login HTTP/1.1" 200 7419
+Not Found: /favicon.png
+Not Found: /favicon.png
+"GET /favicon.png HTTP/1.1" 404 6572
+"GET /favicon.png HTTP/1.1" 404 6572
+"GET / HTTP/1.1" 200 18582
+"GET / HTTP/1.1" 200 18582
+"GET /static/img/startup.jpg HTTP/1.1" 404 1669
+"GET /static/img/startup.jpg HTTP/1.1" 404 1669
+"GET / HTTP/1.1" 200 18582
+"GET / HTTP/1.1" 200 18582
+"GET /static/css/custom.css HTTP/1.1" 200 25
+"GET /static/css/custom.css HTTP/1.1" 200 25
+"GET /static/css/style.default.css HTTP/1.1" 200 57334
+"GET /static/css/style.default.css HTTP/1.1" 200 57334
+"GET /static/vendor/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 8192
+"GET /static/vendor/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 8192
+"GET /static/vendor/owl.carousel/assets/owl.carousel.css HTTP/1.1" 200 4744
+"GET /static/vendor/owl.carousel/assets/owl.carousel.css HTTP/1.1" 200 4744
+"GET /static/vendor/owl.carousel/assets/owl.theme.default.css HTTP/1.1" 200 1380
+"GET /static/vendor/owl.carousel/assets/owl.theme.default.css HTTP/1.1" 200 1380
+"GET /static/vendor/font-awesome/css/font-awesome.min.css HTTP/1.1" 200 31396
+"GET /static/vendor/font-awesome/css/font-awesome.min.css HTTP/1.1" 200 31396
+"GET /static/img/startup.jpg HTTP/1.1" 404 1669
+"GET /static/img/startup.jpg HTTP/1.1" 404 1669
+Not Found: /favicon.png
+Not Found: /favicon.png
+"GET /favicon.png HTTP/1.1" 404 6572
+"GET /favicon.png HTTP/1.1" 404 6572
+"GET /todo/ HTTP/1.1" 302 0
+"GET /todo/ HTTP/1.1" 302 0
+"GET /accounts/login/?next=/todo/ HTTP/1.1" 200 6960
+"GET /accounts/login/?next=/todo/ HTTP/1.1" 200 6960
+"GET /static/vendor/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 8192
+"GET /static/vendor/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 8192
+"GET /static/css/style.default.css HTTP/1.1" 200 8192
+"GET /static/css/style.default.css HTTP/1.1" 200 8192
+"GET /static/css/custom.css HTTP/1.1" 200 25
+"GET /static/css/custom.css HTTP/1.1" 200 25
+Not Found: /accounts/login/favicon.png
+Not Found: /accounts/login/favicon.png
+"GET /accounts/login/favicon.png HTTP/1.1" 404 6617
+"GET /accounts/login/favicon.png HTTP/1.1" 404 6617
+Not Found: /accounts/login/aud_exhibit/
+Not Found: /accounts/login/aud_exhibit/
+"GET /accounts/login/aud_exhibit/ HTTP/1.1" 404 6620
+"GET /accounts/login/aud_exhibit/ HTTP/1.1" 404 6620
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 6572
+"GET /favicon.ico HTTP/1.1" 404 6572
+"GET / HTTP/1.1" 200 18582
+"GET / HTTP/1.1" 200 18582
+"GET /static/img/startup.jpg HTTP/1.1" 404 1669
+"GET /static/img/startup.jpg HTTP/1.1" 404 1669
+"GET / HTTP/1.1" 200 18582
+"GET / HTTP/1.1" 200 18582
+"GET /static/img/startup.jpg HTTP/1.1" 404 1669
+"GET /static/img/startup.jpg HTTP/1.1" 404 1669
+"GET /aud_exhibit/ HTTP/1.1" 200 3268
+"GET /aud_exhibit/ HTTP/1.1" 200 3268
+"GET /static/js/script.js HTTP/1.1" 304 0
+"GET /static/js/script.js HTTP/1.1" 304 0
+"GET /static/css/style.css HTTP/1.1" 200 1359
+"GET /static/css/style.css HTTP/1.1" 200 1359
+"GET /static/img/dance3.jpg HTTP/1.1" 200 79106
+"GET /static/img/dance3.jpg HTTP/1.1" 200 79106
+"GET /static/img/warli1.jpg HTTP/1.1" 200 113921
+"GET /static/img/warli1.jpg HTTP/1.1" 200 113921
+"GET /static/img/sponsors.jpg HTTP/1.1" 200 147112
+"GET /static/img/sponsors.jpg HTTP/1.1" 200 147112

@@ -1,0 +1,84 @@
+"GET / HTTP/1.1" 200 18582
+"GET / HTTP/1.1" 200 18582
+"GET /static/vendor/owl.carousel/assets/owl.theme.default.css HTTP/1.1" 200 1380
+"GET /static/vendor/owl.carousel/assets/owl.theme.default.css HTTP/1.1" 200 1380
+"GET /static/css/custom.css HTTP/1.1" 200 25
+"GET /static/css/custom.css HTTP/1.1" 200 25
+"GET /static/vendor/owl.carousel/assets/owl.carousel.css HTTP/1.1" 200 4744
+"GET /static/vendor/owl.carousel/assets/owl.carousel.css HTTP/1.1" 200 4744
+"GET /static/vendor/font-awesome/css/font-awesome.min.css HTTP/1.1" 200 31396
+"GET /static/vendor/font-awesome/css/font-awesome.min.css HTTP/1.1" 200 31396
+"GET /static/css/style.default.css HTTP/1.1" 200 57334
+"GET /static/css/style.default.css HTTP/1.1" 200 57334
+"GET /static/vendor/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 140930
+"GET /static/vendor/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 140930
+"GET /static/vendor/bootstrap/js/bootstrap.min.js HTTP/1.1" 200 50731
+"GET /static/vendor/bootstrap/js/bootstrap.min.js HTTP/1.1" 200 50731
+"GET /static/vendor/owl.carousel/owl.carousel.min.js HTTP/1.1" 200 44342
+"GET /static/vendor/owl.carousel/owl.carousel.min.js HTTP/1.1" 200 44342
+"GET /static/vendor/popper.js/umd/popper.min.js HTTP/1.1" 200 20337
+"GET /static/vendor/popper.js/umd/popper.min.js HTTP/1.1" 200 20337
+"GET /static/vendor/bootstrap-select/js/bootstrap-select.min.js HTTP/1.1" 200 44448
+"GET /static/vendor/bootstrap-select/js/bootstrap-select.min.js HTTP/1.1" 200 44448
+"GET /static/js/front.js HTTP/1.1" 200 8053
+"GET /static/js/front.js HTTP/1.1" 200 8053
+"GET /static/vendor/jquery/jquery.min.js HTTP/1.1" 200 86927
+"GET /static/vendor/jquery/jquery.min.js HTTP/1.1" 200 86927
+"GET /static/vendor/jquery.cookie/jquery.cookie.js HTTP/1.1" 200 3121
+"GET /static/vendor/jquery.cookie/jquery.cookie.js HTTP/1.1" 200 3121
+"GET /static/img/logo-small.png HTTP/1.1" 200 5152
+"GET /static/img/logo-small.png HTTP/1.1" 200 5152
+"GET /static/img/startup.jpg HTTP/1.1" 404 1669
+"GET /static/img/startup.jpg HTTP/1.1" 404 1669
+Not Found: /favicon.png
+Not Found: /favicon.png
+"GET /favicon.png HTTP/1.1" 404 6572
+"GET /favicon.png HTTP/1.1" 404 6572
+"GET /static/img/company-1.png HTTP/1.1" 200 3494
+"GET /static/img/company-1.png HTTP/1.1" 200 3494
+"GET /static/img/featured1.jpg HTTP/1.1" 200 121881
+"GET /static/img/featured1.jpg HTTP/1.1" 200 121881
+"GET /static/img/meeting.jpg HTTP/1.1" 200 144248
+"GET /static/img/meeting.jpg HTTP/1.1" 200 144248
+"GET /bookshow/ HTTP/1.1" 302 0
+"GET /bookshow/ HTTP/1.1" 302 0
+"GET /login?next=/bookshow/ HTTP/1.1" 200 6960
+"GET /login?next=/bookshow/ HTTP/1.1" 200 6960
+"GET /static/vendor/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 140930
+"GET /static/vendor/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 140930
+"POST /login?next=/bookshow/ HTTP/1.1" 302 0
+"POST /login?next=/bookshow/ HTTP/1.1" 302 0
+"GET /bookshow/ HTTP/1.1" 200 6582
+"GET /bookshow/ HTTP/1.1" 200 6582
+"GET /static/css/bootstrap.min.css HTTP/1.1" 200 8192
+"GET /static/css/bootstrap.min.css HTTP/1.1" 200 8192
+"GET /static/css/theme.css HTTP/1.1" 200 255
+"GET /static/css/theme.css HTTP/1.1" 200 255
+Not Found: /assets/css/ie10-viewport-bug-workaround.css
+Not Found: /assets/css/ie10-viewport-bug-workaround.css
+"GET /assets/css/ie10-viewport-bug-workaround.css HTTP/1.1" 404 6668
+"GET /assets/css/ie10-viewport-bug-workaround.css HTTP/1.1" 404 6668
+"GET /static/css/bootstrap-theme.min.css HTTP/1.1" 200 8192
+"GET /static/css/bootstrap-theme.min.css HTTP/1.1" 200 8192
+Not Found: /assets/js/ie-emulation-modes-warning.js
+Not Found: /assets/js/ie10-viewport-bug-workaround.js
+Not Found: /assets/js/ie-emulation-modes-warning.js
+Not Found: /assets/js/ie10-viewport-bug-workaround.js
+"GET /assets/js/ie-emulation-modes-warning.js HTTP/1.1" 404 6656
+"GET /assets/js/ie-emulation-modes-warning.js HTTP/1.1" 404 6656
+"GET /assets/js/ie10-viewport-bug-workaround.js HTTP/1.1" 404 6662
+"GET /assets/js/ie10-viewport-bug-workaround.js HTTP/1.1" 404 6662
+"GET /static/fonts/glyphicons-halflings-regular.woff2 HTTP/1.1" 404 1744
+"GET /static/fonts/glyphicons-halflings-regular.woff2 HTTP/1.1" 404 1744
+"GET /static/fonts/glyphicons-halflings-regular.woff HTTP/1.1" 404 1741
+"GET /static/fonts/glyphicons-halflings-regular.woff HTTP/1.1" 404 1741
+"GET /static/fonts/glyphicons-halflings-regular.ttf HTTP/1.1" 404 1738
+"GET /static/fonts/glyphicons-halflings-regular.ttf HTTP/1.1" 404 1738
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 6572
+"GET /favicon.ico HTTP/1.1" 404 6572
+Not Found: /assets/js/ie10-viewport-bug-workaround.js
+Not Found: /assets/js/ie10-viewport-bug-workaround.js
+"GET /assets/js/ie10-viewport-bug-workaround.js HTTP/1.1" 404 6662
+"GET /assets/js/ie10-viewport-bug-workaround.js HTTP/1.1" 404 6662
